@@ -4,7 +4,12 @@
   .course_image{
     width: 100%;
   }
-  
+  .bestseller{
+    color: black;
+    background-color: rgb(233, 233, 143);
+    padding: 0px 8px;
+    font-size: small;
+  }
 .instructor_name{
     color: green;
 }
@@ -21,14 +26,12 @@
   }
   
 .courses{
-    border: 1px solid blue;
     margin: 15px  15px;
     width: 17.4%;
   }
   @media only screen and (max-width: 1400px) {  
     .courses{
       width: 22.1%;
-      margin: 0px 15px;
     } 
 }
 @media only screen and (max-width: 1144px) {

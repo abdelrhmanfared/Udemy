@@ -1,6 +1,12 @@
 import React from "react";
 import style from "./CoursesSection.module.css";
 import CourseContainer from "./CourseContainer";
+/**
+ *
+ * @param {object} props - data : Contain all Course , header : contain header of course , description : contain description of course
+ * Course_type : contain course name
+ * @returns get Courses Component with header and description
+ */
 function CoursesSection(props) {
   return (
     <section className={style.course_type}>
