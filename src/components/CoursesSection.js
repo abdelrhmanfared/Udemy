@@ -3,12 +3,15 @@ import style from "./CoursesSection.module.css";
 import CourseContainer from "./CourseContainer";
 
 /**
+ * @description : Load the courses into state data contain Isloading , jsonfile , errorMsg
+ * ISloading when the the data fetched or there is error set to 0
+ * jsonfile contain data in json file
+ * errormsge show if the fetch didn't  work
+ * use another port to load the json file port 8000
  *
- * @param {object} props - data : Contain all Course , header : contain header of course , description : contain description of course
- * Course_type : contain course name
  * @returns get Courses Component with header and description
  */
-function CoursesSection(props) {
+function CoursesSection() {
   const [course, setCourse] = useState("Python");
   const [data, setData] = useState({
     IsLoading: true,
@@ -36,7 +39,7 @@ function CoursesSection(props) {
             <></>
           ) : (
             <>
-              <CreateInro />
+              <Course_intro />
               <CategoryButton course={course} setCourse={setCourse} />
               <section className={style.course_type}>
                 <div className={style.course_content}>
@@ -68,6 +71,11 @@ let TypeofCourses = [
   "AWS Certification",
   "Drawing",
 ];
+/**
+ *
+ * @param {*} props setCourse and Course state to handle change over courses
+ * @returns tyoe of courses component
+ */
 function CategoryButton(props) {
   return (
     <nav className={style.course_category}>
@@ -76,7 +84,7 @@ function CategoryButton(props) {
           return (
             <li
               key={item}
-              style={{ color: item == props.course ? "black" : "gray" }}
+              style={{ color: item === props.course ? "black" : "gray" }}
               onClick={() => props.setCourse(item)}
             >
               {item}
@@ -87,8 +95,11 @@ function CategoryButton(props) {
     </nav>
   );
 }
-
-function CreateInro() {
+/**
+ *
+ * @returns Intro To represent the data of Courses
+ */
+function Course_intro() {
   return (
     <section className={style.Course_intro}>
       <div className={style.conatiner}>

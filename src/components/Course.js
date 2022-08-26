@@ -31,7 +31,13 @@ function CoursePrice(props) {
  * @returns jsx instructor names
  */
 function InstructorNames(props) {
-  return <h4 className={style.instructor_name}>{props.instructor_name}</h4>;
+  let str = "";
+  props.instructor_name.map((item, index) => {
+    return (str +=
+      item.name + (index + 1 === props.instructor_name.length ? "" : ","));
+  });
+
+  return <h4 className={style.instructor_name}>{str}</h4>;
 }
 /**
  *
@@ -51,23 +57,9 @@ function CountStars(props) {
 
   return (
     <>
-      <span className={style.stars}>{props.rate}</span>
+      <span className={style.stars}>{props.rate.toFixed(2)}</span>
       <span className={style.stars}>{Stars}</span>
-      <span className={style.people}>({props.people})</span>
     </>
-  );
-}
-/**
- *
- * @param {boolean} props - Contain course if best seller or not
- * @returns jsx contain bestseller
- */
-function BestSeller(props) {
-  let name = "BestSeller";
-  return props.bestSeller ? (
-    <span className={style.bestseller}>{name}</span>
-  ) : (
-    <></>
   );
 }
 /**
@@ -82,11 +74,10 @@ function Course(props) {
         <CourseImage image={props.course.image} />
         <div className={style.course_data}>
           <CourseTitle title={props.course.title} />
-          <InstructorNames instructor_name={props.course.author} />
-          <CountStars rate={props.course.rating} people={props.course.people} />
+          <InstructorNames instructor_name={props.course.instructors} />
+          <CountStars rate={props.course.rating} />
         </div>
         <CoursePrice price={props.course.price} />
-        <BestSeller bestSeller={props.course.bestSeller} />
       </div>
     </>
   );
