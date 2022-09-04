@@ -8,6 +8,26 @@
   width: 1300px;
   margin: 0px 35px;
 }
+.background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background_image{
+  width: 1340;
+  max-width: 100%;
+}
+
+.udemy_description{
+  margin-left: 25px;
+  padding-left: 5px;
+
+}
+.image_container{
+  display: flex;
+  justify-content: center;
+}
 
 .course_category{
   height: 40px;
@@ -35,6 +55,11 @@ li {
     border: 3px solid black;
   }
   
+  .background-image{
+    width: 1340;
+    max-width: 100%;
+  
+  }
   
 .udemy_header{
     margin-left: 25px;
@@ -55,4 +80,79 @@ li {
     justify-content: center;
     align-items: center;
   } 
+  .udemy_info{
+    width: 455px;
+    height: 200px;
+    position: absolute;
+    background-color: white;
+    padding: 8px;
+    transform: translate(-50%, +30%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%) ;  
+  }
+  
+  @media only screen and (max-width: 1400px) {
+
+    .udemy_info{  
+      transform: translate(-139.5%, -45%);
+  
+    }
+  
+ .image_container{
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column-reverse;
+    }
+  
+  }  @media only screen and (max-width: 1144px) {
+   
+    .image_container{
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column-reverse;
+    }
+    .udemy_info{
+      transform: translate(-100%, -30%);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1000px) {
+  
+    .image_container{
+      display: block;
+    }  .udemy_info{
+      position: relative;
+      transform: translate(-1%, +000%);
+      width: 90%;
+      height: 80px;
+      padding: 0;
+      margin-top: 30px;
+      margin-left: 4px;
+      box-shadow: none;
+    }
+    .udemy_description{
+      padding-left: 15px;
+    }
+  .Course_intro{
+    margin-top: 80px;
+  }
+  
+  }
+  @media only screen and (max-width: 700px) {
+  
+    
+    .image_container{
+      display: block;
+    }  .udemy_info{
+      position: relative;
+      transform: translate(0%, +000%);
+      width: 90%;
+      height: 80px;
+      box-shadow: none;
+    }
+  
+    .Course_intro{
+      margin-top: 120px;
+    }
+  }
   

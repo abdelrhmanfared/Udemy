@@ -28,6 +28,7 @@
   
 .courses{
     margin: 15px  15px;
+    border: 1px solid red;
     width: 17.4%;
   }
   @media only screen and (max-width: 1400px) {  

@@ -29,38 +29,33 @@ function CoursesSection() {
         setData({ ...data, IsLoading: false, ErrorMsg: "Error" })
       );
   }, []);
-  return (
-    <>
-      {data.IsLoading ? (
-        <></>
-      ) : (
+  const renderCourses = () => {
+    if (data.IsLoading) return <></>;
+    else if (data.ErrorMsg === "Error") {
+      return <></>;
+    } else {
+      return (
         <>
-          {data.ErrorMsg ? (
-            <></>
-          ) : (
-            <>
-              <Course_intro />
-              <CategoryButton course={course} setCourse={setCourse} />
-              <section className={style.course_type}>
-                <div className={style.course_content}>
-                  <h2 className={style.udemy_header}>
-                    {data.jsonFile[course][0].header}
-                  </h2>
-                  <p className={style.udemy_description}>
-                    {data.jsonFile[course][0].description}
-                  </p>
-                  <button className={style.explore_course}>
-                    Explore {course}
-                  </button>
-                  <CourseContainer Course={data.jsonFile[course][0].courses} />
-                </div>
-              </section>
-            </>
-          )}
+          <ImageBackground />
+          <CourseIntro />
+          <CategoryButton course={course} setCourse={setCourse} />
+          <section className={style.course_type}>
+            <div className={style.course_content}>
+              <h2 className={style.udemy_header}>
+                {data.jsonFile[course][0].header}
+              </h2>
+              <p className={style.udemy_description}>
+                {data.jsonFile[course][0].description}
+              </p>
+              <button className={style.explore_course}>Explore {course}</button>
+              <CourseContainer Course={data.jsonFile[course][0].courses} />
+            </div>
+          </section>
         </>
-      )}
-    </>
-  );
+      );
+    }
+  };
+  return <>{renderCourses()}</>;
 }
 let TypeofCourses = [
   "Python",
@@ -99,7 +94,7 @@ function CategoryButton(props) {
  *
  * @returns Intro To represent the data of Courses
  */
-function Course_intro() {
+function CourseIntro() {
   return (
     <section className={style.Course_intro}>
       <div className={style.conatiner}>
@@ -108,6 +103,28 @@ function Course_intro() {
           Choose from 185,000 online video courses with new additions published
           every month
         </p>
+      </div>
+    </section>
+  );
+}
+function ImageBackground() {
+  return (
+    <section className={style.background}>
+      <div className={style.image_container}>
+        <img
+          className={style.background_image}
+          alt="IntroImage"
+          src={require("./images/Intro.jpg")}
+        />
+        <div className={style.udemy_info}>
+          <h1 className={style.udemy_description}>
+            Unlock the power of your people
+          </h1>
+          <p className={style.udemy_description}>
+            Udemy Business is trusted by 10.5K+ companies around the world
+            <a href="/">Find out what we can do for yours</a>.
+          </p>
+        </div>
       </div>
     </section>
   );

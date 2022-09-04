@@ -1,6 +1,7 @@
 import React from "react";
 import Course from "./Course";
 import style from "./CourseContainer.module.css";
+import { Link } from "react-router-dom";
 /**
  *
  * @param {object} props - Contain all data related to al courses

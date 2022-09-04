@@ -1,0 +1,117 @@
+.udemy_nav_par{
+
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);  
+  }
+  .udemy_image{
+    margin-left:5px;
+  }
+  .udemy_image2,.logo_image{
+    padding-top: 10px;
+  }
+  a:hover{
+    color: darkblue;
+    text-decoration: none;
+  }
+  .udemy_image,
+  .cart_image,
+  .links,
+  .login_btn,
+  .signup_btn,
+  .world_btn{
+    margin-right: 10px;
+    margin-top: 22px;
+  }
+  .udemy_image2,.logo_image{
+    padding-top: 22px;
+  }  
+  .links{
+    margin-left: 8px;
+    text-decoration:none;
+    color: black;
+    font-size: large;
+  }
+  .Search_bar{
+    flex-grow: 1;
+    margin-top: 18px;
+  }
+  .Search_form{
+    width: 100%;
+    margin-right: 25px;
+  }
+  .search_udemy_submit{
+  
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    padding-top: 5px;
+    position: absolute;
+  }
+  .Search{
+    border-radius: 20px;
+    padding-left: 50px;
+    width:100%;
+    height: 40px;
+    border: 2px solid black;
+  }
+  .login_btn,.signup_btn,.world_btn{
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    margin-top: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .world_btn{
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    width: 40px;
+  }
+#mobile{
+    display: none;
+}
+  @media only screen and (max-width: 1144px) {
+    .udemy_link{
+      display: none;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1000px) {
+  
+    #pc{
+      display: none;
+    }
+    #mobile{
+      display: block;
+    }
+    
+    .udemy_description{
+      padding-left: 15px;
+    }
+    .udemy_image2,.logo_image{
+      padding-top: 10px;
+    }  
+    .logo_image{
+      position: absolute;
+      left: 75%;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+  
+   
+    .udemy_image2,.logo_image{
+      padding-top: 20px;
+    }
+    .logo_image{
+      position: absolute;
+      left: 75%;
+    }
+  }
+  

@@ -1,0 +1,39 @@
+.Learn{
+    border: 1px solid #d1d7dc;
+    color: black;
+    max-width: 700px;
+}
+ul{
+    list-style: none;
+}
+.container{
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    flex: 40%; 
+    /* border: 1px solid violet; */
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.correct{
+    /* border: 1px solid aquamarine; */
+}
+.ContentHeader{
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.line{
+    /* border: 1px solid salmon; */
+    padding: 6px;
+    font-size: small;
+}
+@media only screen and (max-width : 600px) {
+    .item{
+        flex: 100%;     
+        /* border: 1px solid violet; */
+        margin-bottom: 10px;
+    }
+        
+}

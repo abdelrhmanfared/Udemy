@@ -1,5 +1,8 @@
 import React from "react";
 import style from "./Course.module.css";
+import { useNavigate } from "react-router-dom";
+import CountStars from "./CountStars";
+
 /**
  *
  * @param {string} props-Conatin image of course
@@ -32,50 +35,46 @@ function CoursePrice(props) {
  */
 function InstructorNames(props) {
   let str = "";
-  props.instructor_name.map((item, index) => {
+  console.log(props.instructor_name.name);
+  /*props.instructor_name.map((item, index) => {
     return (str +=
       item.name + (index + 1 === props.instructor_name.length ? "" : ","));
-  });
-
-  return <h4 className={style.instructor_name}>{str}</h4>;
-}
-/**
- *
- * @param {integer} props - Contain rate - contain people
- * @returns jsx contain rate and stars and people
- */
-function CountStars(props) {
-  let Rate = props.rate;
-  let Stars = [];
-  for (let k = 1; k <= 5; k++) {
-    if (Rate >= k)
-      Stars.push(<i key={k} className="fa fa-star" aria-hidden="true"></i>);
-    else if (Rate >= 0.2)
-      Stars.push(<i key={k} className="fas fa-star-half-alt"></i>);
-    else Stars.push(<i key={k} className="fa fa-star-o"></i>);
-  }
-
+  });*/
   return (
-    <>
-      <span className={style.stars}>{props.rate.toFixed(2)}</span>
-      <span className={style.stars}>{Stars}</span>
-    </>
+    <h4 className={style.instructor_name}>{props.instructor_name.name}</h4>
   );
 }
+
 /**
  *
  * @param {course} props - Contain all data realted to course
  * @returns Course component
  */
 function Course(props) {
+  const navigate = useNavigate();
+  console.log(props.course);
   return (
     <>
-      <div className={style.courses}>
+      <div
+        onClick={
+          () =>
+            navigate("/Course/" + props.course.id, {
+              state: {
+                data: props.course,
+              },
+            })
+          //            {state:{id:1,name:'sabaoon'}}
+        }
+        className={style.courses}
+      >
         <CourseImage image={props.course.image} />
         <div className={style.course_data}>
           <CourseTitle title={props.course.title} />
-          <InstructorNames instructor_name={props.course.instructors} />
-          <CountStars rate={props.course.rating} />
+          <InstructorNames instructor_name={props.course.instructor} />
+          <CountStars
+            Rate={props.course.rate}
+            rate_count={props.course.ratingCount}
+          />
         </div>
         <CoursePrice price={props.course.price} />
       </div>

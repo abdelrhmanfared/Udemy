@@ -1,0 +1,18 @@
+.offers{
+    background-color:  #eceb98;;
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 20px;
+    height: 70px;
+    font-size: 23;
+    font-family: sans-serif;
+  }
+  .offer_courses{
+    flex-grow: 1;
+  }
+  .offer_close{
+    padding-right: 15px;
+    padding-top: 5px;
+  }
+  
