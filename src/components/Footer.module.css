@@ -1,0 +1,72 @@
+.foot{
+    height: 180px;
+    background-color: #1c1d1f;
+    border-top: 1px solid #3e4143;
+    display: flex;
+    color: white;
+    padding: 24px 48px;
+    flex-direction: row;
+}
+.footer1{
+    flex-grow: 1;
+    font-size: large;
+    
+}
+
+.footer2{
+    flex-grow:6 ;
+}
+.btn{
+    float: right;
+    background-color: #1c1d1f;
+    border: 1px solid #fff;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
+.worldicon{
+    filter: brightness(0) invert(1);
+    margin-right: 5px;
+}
+.footer{
+    height: 180px;
+    padding-top: 40px;
+    background-color: #1c1d1f;
+    color: white;
+    justify-content:space-between;
+    display: flex;
+}  
+ .udemy_logo{
+     width: 100px;
+     margin-left: 48px;
+}
+.btn2{
+    display: none;
+}
+.udemy_date{
+    margin-right: 30px;
+    margin-top: 8px;
+}
+@media screen and (max-width: 600px) {
+.foot{
+    flex-direction: column;
+    height: 100%;
+    padding-left: 32px;
+}
+.btn{
+    display: none;
+}
+.btn2{
+    display: block;
+    float: right;
+    background-color: #1c1d1f;
+    border: 1px solid #fff;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.udemy_logo{
+    margin-left: 32px;
+}
+}

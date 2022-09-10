@@ -1,0 +1,79 @@
+.popover_card{
+    border: 1px solid rgb(227, 209, 209);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.allElment{
+    padding: 18px 10px;
+    width: 330px;
+    
+}
+.title{
+    font-size: large;
+    margin: 0px 30px;
+    font-weight: bold;
+}
+
+.date{
+    color: green;
+    font-weight: bold;
+        padding-top: 3px;
+
+}
+.overview{
+    margin: 10px 0px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+    
+.wrap{
+    display: flex;
+    margin: 0px 30px;
+
+}
+.new_btn{
+    color: black;
+    background-color: rgb(91, 156, 91);
+    margin-right: 5px;
+}
+.lol{
+    color: gray;
+    margin: 0px 30px;
+}
+.intro{
+    margin: 8px 30px;
+    font-size: medium;
+    color: gray;
+}
+
+.addtocart{
+    width: 70%;
+    height: 40px;
+    margin-top: 3px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #a435f0;
+    color: white;
+}
+.bnts{
+    display: flex;
+    margin: 0px 30px;
+
+}
+.love_react{
+    width: 50px;
+    height: 50px;
+    padding-left: 8px;
+    padding-top: 8px;
+    margin-left: 8px;  
+    border-radius: 100px;
+    border: 1px solid black;
+}
+.love{
+    padding-top: 4px;
+    padding-left: 4px;
+}
+ 

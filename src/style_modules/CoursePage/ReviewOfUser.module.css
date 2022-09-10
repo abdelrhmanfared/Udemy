@@ -1,0 +1,52 @@
+.react{
+    border-radius: 30px;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+
+}
+
+.react_clicked{
+    border-radius: 30px; 
+
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    background-color: black;
+}
+.img_like{
+filter:  brightness(0) invert(1);
+}
+.reveiw{
+    display: flex;
+    flex-direction: row;
+    max-width: 750px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid brown;
+
+}
+.name{
+    background-color: black;
+    width: 48px;
+    height: 48px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+.reveiw_data{
+    margin-top: 20px;
+}
+.Reviw_name{
+    padding-right: 24px;
+
+}
+.content{
+    margin-top: 5px;
+}
+.Report{
+    margin-left: 12px;
+    text-decoration: underline;
+    color: gray;
+}

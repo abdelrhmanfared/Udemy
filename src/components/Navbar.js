@@ -1,41 +1,57 @@
-import React from "react";
+import React, { useRef } from "react";
 import style from "./Navbar.module.css";
+import { Link, useSearchParams } from "react-router-dom";
 function Navbar() {
+  const inputref = useRef("");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const filter = () => {
+    setSearchParams({ search: inputref.current.value });
+  };
+
   return (
-    <nav className={style.udemy_nav_par}>
-      <img
-        id={style.mobile}
-        className={style.udemy_image2}
-        alt="Menu Imgae"
-        src={require("./images/Menu.png")}
-      />
-      <a id={style.pc} className={style.udemy_image} href="/">
-        <img alt="Udemy Image" src={require("./images/logo.png")} />
-      </a>
-      <a id={style.pc} className={style.links} href="/">
+    <div className={style.udemy_nav_par}>
+      <Link to="/">
+        <img
+          id={style.mobile}
+          className={style.udemy_image2}
+          alt="Menu Imgae"
+          src={require("../images/Menu.png")}
+        />
+      </Link>
+      <Link id={style.pc} className={style.udemy_image} to="/">
+        <img alt="Udemy" src={require("../images/logo.png")} />
+      </Link>
+      <Link id={style.pc} className={style.links} to="/">
         Categories
-      </a>
+      </Link>
       <section id={style.pc} className={style.Search_bar}>
-        <form action="lol" className={style.Search_form}>
-          <button type="submit" className={style.search_udemy_submit}>
-            <i className="fa fa_search"></i>
-          </button>
-          <input
-            className={style.Search}
-            type="text"
-            placeholder="Search for any thing"
-          />
-        </form>
+        <div>
+          <div className={style.Search_form}>
+            <button type="submit" className={style.search_udemy_submit}>
+              <img
+                onClick={filter}
+                alt="search"
+                src={require("../images/loupe.png")}
+              />
+            </button>
+            <input
+              className={style.Search}
+              ref={inputref}
+              type="text"
+              placeholder="Search for any thing"
+            />
+          </div>
+        </div>
       </section>
-      <a id={style.pc} className={style.links} href="/">
+      <Link id={style.pc} className={style.links} to="/">
         Udemy Business
-      </a>
-      <a id={style.pc} className={style.links} href="/">
+      </Link>
+      <Link id={style.pc} className={style.links} to="/">
         Tech on Udemy
-      </a>
-      <a id={style.pc} className={style.cart_image} href="/">
-        <img alt="Udemy Imgae" src={require("./images/cart.png")} />
-      </a>
+      </Link>
+      <Link id={style.pc} className={style.cart_image} to="/">
+        <img alt="UdemyImgae" src={require("../images/cart.png")} />
+      </Link>
       <button id={style.pc} className={style.login_btn}>
         Log in
       </button>
@@ -43,13 +59,13 @@ function Navbar() {
       <button id={style.pc} className={style.signup_btn}>
         Sign up
       </button>
-      <a id={style.pc} className={style.world_btn} href="/">
-        <img alt="Udemy Imgae" src={require("./images/world.png")} />
-      </a>
-      <a id={style.mobile} className={style.logo_image} href="/">
-        <img alt="Udemy Image" src={require("./images/logo.png")} />
-      </a>
-    </nav>
+      <Link id={style.pc} className={style.world_btn} to="/">
+        <img alt="UdemyImgae" src={require("../images/world.png")} />
+      </Link>
+      <Link id={style.mobile} className={style.logo_image} to="/">
+        <img alt="UdemyImage" src={require("../images/logo.png")} />
+      </Link>
+    </div>
   );
 }
 

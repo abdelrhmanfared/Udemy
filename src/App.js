@@ -1,19 +1,50 @@
-import CoursesSection from "./components/CoursesSection";
+import CoursesSection from "./components/HomePage/CoursesSection";
 import Header from "./components/Header";
+import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import CourseData from "./components/CourseData";
+import CourseData from "./components/CoursePage/CourseData";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Footer from "./components/Footer";
+import PageNoFound from "./components/PageNoFound";
 function App() {
+  const [course, setcourse] = useState("Python");
+  const [Data, setData] = useState({
+    IsLoading: true,
+    jsonFile: "",
+    ErrorMsg: "",
+  });
+  useEffect(() => {
+    let url = "http://localhost:8000/data";
+
+    fetch(url)
+      .then((response) => response.json())
+      .then((json) => {
+        console.log("here ");
+        setData({ jsonFile: json, IsLoading: false, ErrorMsg: "" });
+      })
+      .catch((error) => {
+        console.log("error");
+        setData({ ...Data, IsLoading: false, ErrorMsg: "Error" });
+      });
+  }, []);
+
   return (
     <>
       <Header />
       <Navbar />
       <Routes>
-        <Route path="/" element={<CoursesSection />} />
+        <Route
+          path="/"
+          element={
+            <CoursesSection data={Data} Course={course} setCourse={setcourse} />
+          }
+        />
+
         <Route path="/Course/:Courseid" element={<CourseData />} />
+        <Route path="*" element={<PageNoFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

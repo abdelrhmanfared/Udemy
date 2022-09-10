@@ -1,0 +1,17 @@
+.data{
+    display: none;
+}
+.scrol_background{
+        background-color: white;
+        color: #401b9c;
+        display:flex;
+        top: 0%;
+        left: 0%;
+        justify-content: space-between;
+        height: 50px;
+        position: fixed;
+        width: 100vw;
+        font-size: medium;
+        font-weight: bold;
+        padding: 10px 14px;
+    }    

@@ -1,0 +1,161 @@
+.Course_intro{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center ;
+}
+.conatiner{
+  width: 1300px;
+  margin: 0px 35px;
+}
+.background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background_image{
+  width: 1340;
+  max-width: 100%;
+}
+
+.udemy_description{
+  margin-left: 25px;
+  padding-left: 5px;
+
+}
+.image_container{
+  display: flex;
+  justify-content: center;
+}
+
+.course_category{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.courses_list{
+  list-style: none;
+  width: 1340px;
+  margin-left: 30px;
+  padding-inline-start: 0px;
+}
+.li_item {
+  float: left;
+  margin: 0px 5px;
+  font-weight: bold;
+  font-size: large;
+  color: gray;
+}
+
+.course_content{
+    width: 1300px;
+    padding: 0;
+    margin: auto;
+    border: 3px solid black;
+  }
+  
+  .background-image{
+    width: 1340;
+    max-width: 100%;
+  
+  }
+  
+.udemy_header{
+    margin-left: 25px;
+    margin-top: 30px;
+ }
+ .udemy_description{
+    margin-left: 25px;
+  }
+  .explore_course{
+    background-color: white;
+    height: 40px;
+    font-weight: bold;
+    margin: 10px 25px;
+  }
+  .course_type{
+    padding: 10px 30px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  .udemy_info{
+    width: 455px;
+    height: 200px;
+    position: absolute;
+    background-color: white;
+    padding: 8px;
+    transform: translate(-50%, +30%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%) ;  
+  }
+  .spinner{
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+
+    .udemy_info{  
+      transform: translate(-139.5%, -45%);
+  
+    }
+  
+ .image_container{
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column-reverse;
+    }
+  
+  }  @media only screen and (max-width: 1144px) {
+   
+    .image_container{
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column-reverse;
+    }
+    .udemy_info{
+      transform: translate(-100%, -30%);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1000px) {
+  
+    .image_container{
+      display: block;
+    }  .udemy_info{
+      position: relative;
+      transform: translate(-1%, +000%);
+      width: 90%;
+      height: 80px;
+      padding: 0;
+      margin-top: 30px;
+      margin-left: 4px;
+      box-shadow: none;
+    }
+    .udemy_description{
+      padding-left: 15px;
+    }
+  .Course_intro{
+    margin-top: 80px;
+  }
+  
+  }
+  @media only screen and (max-width: 700px) {
+  
+    
+    .image_container{
+      display: block;
+    }  .udemy_info{
+      position: relative;
+      transform: translate(0%, +000%);
+      width: 90%;
+      height: 80px;
+      box-shadow: none;
+    }
+  
+    .Course_intro{
+      margin-top: 120px;
+    }
+  }

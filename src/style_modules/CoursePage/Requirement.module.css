@@ -1,0 +1,18 @@
+.reqtable{
+    width: 100%;
+    max-width: 750px;
+
+}
+.req{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.ul_item{
+    color : black ;
+    padding: 0px !important;
+}
+.list{
+    content:"•";
+}
+
