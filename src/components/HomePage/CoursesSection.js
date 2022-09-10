@@ -3,6 +3,7 @@ import style from "../../style_modules/HomePage/CoursesSection.module.css";
 import CourseContainer from "./CourseContainer";
 import Spinner from "react-bootstrap/Spinner";
 import { useSearchParams } from "react-router-dom";
+import Categories from "./Categories";
 /**
  * @description : Load the courses into state data contain Isloading , jsonfile , errorMsg
  * ISloading when the the data fetched or there is error set to 0
@@ -20,8 +21,8 @@ function CoursesSection({ data, Course, setCourse }) {
       return <></>;
     } else {
       return (
-        <>
-          <section className={style.course_type}>
+        <div>
+          <div className={style.course_type}>
             <div className={style.course_content}>
               <h2 className={style.udemy_header}>
                 {data.jsonFile[Course][0].header}
@@ -32,8 +33,9 @@ function CoursesSection({ data, Course, setCourse }) {
               <button className={style.explore_course}>Explore {Course}</button>
               <CourseContainer Course_data={data.jsonFile[Course][0].courses} />
             </div>
-          </section>
-        </>
+          </div>
+          <Categories />
+        </div>
       );
     }
   };

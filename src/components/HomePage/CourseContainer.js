@@ -1,5 +1,7 @@
 import React from "react";
 import { useSearchParams } from "react-router-dom";
+import Carousel from "react-grid-carousel";
+
 import Course from "./Course";
 import style from "../../style_modules/HomePage/CourseContainer.module.css";
 /**
@@ -12,15 +14,42 @@ function CourseContainer(props) {
   let SearchValue = SearchParams.get("search");
   if (SearchValue == null) SearchValue = "";
 
-  console.log(props.Course_data);
   let filteredCourses = props.Course_data.filter((word) =>
     word.title.toLowerCase().includes(SearchValue.toLowerCase())
   );
   if (filteredCourses.length === 0) filteredCourses = props.Course_data;
-  const v = filteredCourses.map((cour) => {
-    return <Course key={cour.id} course={cour} />;
+  const v = filteredCourses.map((cour, index) => {
+    return (
+      <Carousel.Item key={index}>
+        <Course key={cour.id} course={cour} />
+      </Carousel.Item>
+    );
   });
-  console.log(v);
-  return <div className={style.course_info}>{v}</div>;
+  return (
+    <div className={style.course_info}>
+      <Carousel
+        cols={5}
+        rows={1}
+        loop
+        mobileBreakpoint={600}
+        responsiveLayout={[
+          {
+            breakpoint: 800,
+            cols: 2,
+          },
+          {
+            breakpoint: 980,
+            cols: 3,
+          },
+          {
+            breakpoint: 1200,
+            cols: 4,
+          },
+        ]}
+      >
+        {v}
+      </Carousel>
+    </div>
+  );
 }
 export default CourseContainer;

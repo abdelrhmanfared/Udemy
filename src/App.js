@@ -20,7 +20,6 @@ function App() {
     fetch(url)
       .then((response) => response.json())
       .then((json) => {
-        console.log("here ");
         setData({ jsonFile: json, IsLoading: false, ErrorMsg: "" });
       })
       .catch((error) => {

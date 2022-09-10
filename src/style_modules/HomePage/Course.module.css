@@ -1,56 +1,21 @@
 .stars{
-    color: #e59819;
-    padding-right: 6px ;
-  }
-  .course_image{
-    width: 100%;
-  }
-  .bestseller{
-    color: black;
-    background-color: rgb(233, 233, 143);
-    padding: 0px 8px;
-    font-size: small;
-  }
-.instructor_name{
-    color: green;
+  color: #e59819;
+  padding-right: 6px ;
 }
-.course-data{
-    width: 240px;
-  }
-.course_price,.course_title{
-    margin: 3px;
-    color: black;
-}
-.instructor_name,.people{
-    color: gray;
-    margin: 3px;
-}
-.course_data{
-  width: 300px;
+.course_image{
+  width: 100%;
 }
 
-  
 .courses{
-    margin: 15px  5px;
-    border: 1px solid #d1d7dc;
-    width: 23.5%;
-  }
-  @media only screen and (max-width: 1400px) {  
-    .courses{
-      width: 32%;
-    } 
+  width: 96%;
+
 }
 
-@media only screen and (max-width: 1000px) {
-
-    .courses{
-      width: 48%;
-    } 
+.instructors{
+  margin-top: 3px;
+  margin-bottom: 4px;
+  color: gray;
 }
-@media only screen and (max-width: 700px) {
-
-  
-    .courses{
-      width: 95%;
-    } 
-}  
+.course_price{
+  margin-top: 3px;
+}

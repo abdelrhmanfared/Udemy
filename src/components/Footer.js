@@ -7,7 +7,7 @@ function Footer() {
         <button className={style.btn2}>
           <img
             className={style.worldicon}
-            src="/public/images/world.png"
+            src={require("../images/world.png")}
             alt="world"
           />
           English

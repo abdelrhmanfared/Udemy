@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import CountStars from "../CountStars";
 import { Popover, OverlayTrigger } from "react-bootstrap";
 import PopOver from "./PopOver";
+import { margin } from "@mui/system";
 /**
  *
  * @param {string} props-Conatin image of course
@@ -18,7 +19,7 @@ function CourseImage(props) {
  * @returns jsx contain title
  */
 function CourseTitle(props) {
-  return <h3 className={style.course_title}>{props.title}</h3>;
+  return <h4 className={style.course_title}>{props.title}</h4>;
 }
 /**
  *
@@ -40,7 +41,7 @@ function InstructorNames(props) {
     return (str +=
       item.name + (index + 1 === props.instructorname.length ? "" : ","));
   });
-  return <div>{str}</div>;
+  return <div className={style.instructors}>{str}</div>;
 }
 
 /**
@@ -48,6 +49,7 @@ function InstructorNames(props) {
  * @param {course} props - Contain all data realted to course
  * @returns Course component
  */
+let cnt = 0;
 function Course(props) {
   const PopOverWidth = 320;
   const useref = useRef(null);
@@ -63,6 +65,7 @@ function Course(props) {
       handleCheck();
     }, 2000);
   };
+  cnt++;
   const popoverHoverFocus = (
     <Popover
       id="popover-positioned-right"
@@ -107,13 +110,6 @@ function Course(props) {
                 useref.current.offsetLeft -
                 useref.current.offsetWidth
             );
-            console.log(useref.current.offsetWidth);
-            // console.log(useref.current.offsetLeft);
-            // console.log(
-            //   window.innerWidth -
-            //     useref.current.offsetLeft -
-            //     useref.current.offsetWidth
-            // );
           }}
           onMouseLeave={() => setEnter(false)}
           onClick={() =>
@@ -130,7 +126,7 @@ function Course(props) {
             <CourseTitle title={props.course.title} />
             <InstructorNames instructorname={props.course.instructors} />
             <span style={{ color: "#e59819", paddingRight: 6 }}>
-              {props.course.rate}
+              {props.course.rating}
             </span>
 
             <CountStars Rate={props.course.rating} />
