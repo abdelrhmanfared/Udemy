@@ -26,10 +26,7 @@ function Categories() {
   });
   return (
     <section className="udemy-Category d-flex justify-content-center ">
-      <div
-        className="container-fluid ms-10  "
-        style={{ height: 800, width: 1330 }}
-      >
+      <div className="container-fluid ms-10  " style={{ width: 1330 }}>
         <h4>
           <strong>Top categories</strong>
         </h4>

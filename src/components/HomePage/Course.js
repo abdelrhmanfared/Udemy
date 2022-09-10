@@ -85,6 +85,8 @@ function Course(props) {
   );
   const [Postion, setPostion] = useState("right");
   const check = (Left, Right) => {
+    console.log(Left);
+    console.log(Right);
     if (Left >= PopOverWidth && Right >= PopOverWidth) {
       setPostion(Left >= Right ? "left" : "right");
     } else if (Left >= PopOverWidth) {
@@ -104,6 +106,8 @@ function Course(props) {
           ref={useref}
           onMouseEnter={() => {
             setEnter(true);
+            console.log(useref.current.offsetWidth);
+            console.log(window.innerWidth);
             check(
               useref.current.offsetLeft,
               window.innerWidth -

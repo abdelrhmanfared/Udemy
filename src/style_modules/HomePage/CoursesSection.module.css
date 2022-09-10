@@ -7,12 +7,11 @@
 }
 .conatiner{
   width: 1300px;
-  
   margin: 0px 35px;
 }
 .background{
   display: flex;
-  flex-direction: column;
+  flex-direction: column ;
   justify-content: center;
 }
 
@@ -51,6 +50,7 @@
 }
 
 .course_content{
+    max-width: 90%;
     width: 1300px;
     padding: 0;
     padding-left: 30px;
