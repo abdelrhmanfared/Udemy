@@ -82,8 +82,6 @@ function Course(props) {
   );
   const [Postion, setPostion] = useState("right");
   const check = (Left, Right) => {
-    console.log("Left" + Left);
-    console.log("Right" + Right);
     if (Left >= PopOverWidth && Right >= PopOverWidth) {
       setPostion(Left >= Right ? "left" : "right");
     } else if (Left >= PopOverWidth) {

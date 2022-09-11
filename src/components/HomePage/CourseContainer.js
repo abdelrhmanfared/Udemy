@@ -12,7 +12,6 @@ import style from "../../style_modules/HomePage/CourseContainer.module.css";
 function CourseContainer(props) {
   const use_ref = useRef(null);
   const get_Offset = () => {
-    console.log(use_ref.current.offsetLeft);
     return use_ref.current.offsetLeft;
   };
   const [SearchParams] = useSearchParams();
