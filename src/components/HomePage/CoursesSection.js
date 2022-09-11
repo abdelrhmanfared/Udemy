@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import style from "../../style_modules/HomePage/CoursesSection.module.css";
 import CourseContainer from "./CourseContainer";
 import Spinner from "react-bootstrap/Spinner";
 import { useSearchParams } from "react-router-dom";
 import Categories from "./Categories";
 /**
- * @description : Load the courses into state data contain Isloading , jsonfile , errorMsg
+ * @description : Pass the data from Parent to make fetch onece
  * ISloading when the the data fetched or there is error set to 0
  * jsonfile contain data in json file
  * errormsge show if the fetch didn't  work

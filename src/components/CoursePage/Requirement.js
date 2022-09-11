@@ -1,7 +1,12 @@
 import React from "react";
 import style from "../../style_modules/CoursePage/Requirement.module.css";
-function Requirement(props) {
-  const d = props.courseInfo.requirements.map((item, index) => {
+/**
+ *
+ * @param {Array} requirement  conatin all requirement data about course
+ * @returns
+ */
+function Requirement({ requirement }) {
+  const d = requirement.map((item, index) => {
     return (
       <div className={style.list} key={index}>
         {item}

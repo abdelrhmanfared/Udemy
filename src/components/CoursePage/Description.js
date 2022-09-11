@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import style from "../../style_modules/CoursePage/Description.module.css";
 import ReactMarkdown from "react-markdown";
-
+/**
+ *
+ * @param {object} courseInfo conatain data about course
+ * @param {ref} useref used in scroll component
+ * @param {bool}  isInstructor make smae component in description and instructor description
+ * @returns
+ */
 function Description({ courseInfo, useref, isInstructor }) {
   const [show, setShow] = useState(1);
 
@@ -9,7 +15,6 @@ function Description({ courseInfo, useref, isInstructor }) {
     <div>
       <div className={`${style.desc} ${show && style.fun}`} ref={useref}>
         <h2>{isInstructor ? "Description" : ""} </h2>
-        {/* {des.slice(0, Math.min(2, courseInfo.length)) : des} */}
         <ReactMarkdown>
           {!show || courseInfo.length === 0
             ? courseInfo

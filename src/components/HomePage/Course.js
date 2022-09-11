@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import CountStars from "../CountStars";
 import { Popover, OverlayTrigger } from "react-bootstrap";
 import PopOver from "./PopOver";
-import { margin } from "@mui/system";
 /**
  *
  * @param {string} props-Conatin image of course
@@ -45,11 +44,10 @@ function InstructorNames(props) {
 }
 
 /**
- *@description Conatain all data related to course , pop over compenet
+ *@description Conatain all data related to course , pop over component
  * @param {course} props - Contain all data realted to course
  * @returns Course component
  */
-let cnt = 0;
 function Course(props) {
   const PopOverWidth = 320;
   const useref = useRef(null);
@@ -65,7 +63,6 @@ function Course(props) {
       handleCheck();
     }, 2000);
   };
-  cnt++;
   const popoverHoverFocus = (
     <Popover
       id="popover-positioned-right"
@@ -85,8 +82,8 @@ function Course(props) {
   );
   const [Postion, setPostion] = useState("right");
   const check = (Left, Right) => {
-    console.log(Left);
-    console.log(Right);
+    console.log("Left" + Left);
+    console.log("Right" + Right);
     if (Left >= PopOverWidth && Right >= PopOverWidth) {
       setPostion(Left >= Right ? "left" : "right");
     } else if (Left >= PopOverWidth) {
@@ -106,13 +103,12 @@ function Course(props) {
           ref={useref}
           onMouseEnter={() => {
             setEnter(true);
-            console.log(useref.current.offsetWidth);
-            console.log(window.innerWidth);
             check(
-              useref.current.offsetLeft,
+              useref.current.offsetLeft + props.Offset(),
               window.innerWidth -
                 useref.current.offsetLeft -
-                useref.current.offsetWidth
+                useref.current.offsetWidth -
+                props.Offset()
             );
           }}
           onMouseLeave={() => setEnter(false)}

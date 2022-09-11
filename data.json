@@ -3669,7 +3669,268 @@
         "title": "Top courses in Python",
         "header": "Build websites and applications with Web Development",
         "intro": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
-        "courses": [{}]
+        "courses": [
+          {
+            "id": "l7siukkro85a9adtmca",
+            "title": "The Web Front End Learning Guide",
+            "description": "HTML & HTML5, CSS & CSS3, Bootstrap 4, JavaScript and JQuiry in 1 Course",
+            "link": "/course/amdbdfbs/",
+            "img": "https://img-c.udemycdn.com/course/240x135/3107370_2fea_3.jpg",
+            "instructors": [
+              {
+                "id": "l7siukkmembll9j446",
+                "name": "Hassan Fulaih",
+                "job": "Teacher",
+                "img": "data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"%3E%3C/svg%3E",
+                "rating": 4.6,
+                "reviews": 16382,
+                "students": 243196,
+                "courses": 14,
+                "description": "I love writing code and I love teaching others\n\nI always loved coding, I love diving into complex problems and solving and I still think that it's really an amazing feeling to see an app or program you built from scratch\n\n\n\n\nYou might think that I studied programming and that I got a CS degree - but I didn't! I always liked coding and it was a great hobby but I actually went for \"Biomedical Engineering\" when it was time to go to university.\n\n\n\n\nAnd I don't regret it! It was a fun time and I enjoyed all the things taught there. But soon after taking my first steps in typical Biomedical Engineering jobs, it was very clear to me that I had to go back to coding. And that's what I did.\n\n\n\n\nActually, I always worked as a freelancer on side jobs whilst I was at university. And I also started teaching others there. I like sharing my knowledge and I really believe that we all should do our best to allow everyone to learn new things and achieve his or her goals.\n\n\n\n\nNow, I've taught about 200,000 students worldwide. I published dozens of courses and I got all those tutorials you find on this page. I'm extremely happy to see that all this content is helping people learn the things they want :-)\n\nShow more"
+              }
+            ],
+            "rating": 4.4,
+            "enrollments": 50421,
+            "totalreviews": 1323,
+            "price": 319.99,
+            "oldprice": 319.99,
+            "lastupdated": "10/2021",
+            "lectures": [
+              {
+                "id": "l7siukgyopcdf62nhal",
+                "title": "Introduction",
+                "lessons": [
+                  "Setup the Environment",
+                  "Term of Use",
+                  "About the Instructor",
+                  "Rating the Course",
+                  "How to get the Certificate"
+                ]
+              },
+              {
+                "id": "l7siukgy2606jsiiw5q",
+                "title": "HTML & HTML 5",
+                "lessons": [
+                  "Heading",
+                  "Paragraph",
+                  "Comments",
+                  "Images",
+                  "Link, Iframe",
+                  "Inline, Block",
+                  "Tables",
+                  "Lists",
+                  "Form",
+                  "Form Part 2",
+                  "Form Attributes",
+                  "Select, Datalist Options",
+                  "Videos, Audio"
+                ]
+              },
+              {
+                "id": "l7siuki1bkztbm9wzob",
+                "title": "CSS & CSS3",
+                "lessons": [
+                  "Where to Put",
+                  "Colors",
+                  "Background",
+                  "Borders",
+                  "Margin, Padding",
+                  "Text, Font",
+                  "Link",
+                  "Inline, Block and Float",
+                  "Lists",
+                  "Tables",
+                  "Combinator",
+                  "Pseudo Elements",
+                  "Opacity",
+                  "Dropdown",
+                  "Image Gallery",
+                  "Form",
+                  "Website Layout",
+                  "Grid",
+                  "Gradient",
+                  "Responsive",
+                  "Media Queries",
+                  "Transition, Transform",
+                  "Animation",
+                  "SVG",
+                  "Flexbox",
+                  "Text Format"
+                ]
+              },
+              {
+                "id": "l7siukiuynx596vhqfe",
+                "title": "Bootstrap 4",
+                "lessons": [
+                  "Buttons",
+                  "Carousel",
+                  "Collapse",
+                  "Dropdown Menu",
+                  "Model",
+                  "Nav-bar",
+                  "Scrollspy",
+                  "Table",
+                  "Topography",
+                  "Alert",
+                  "Budges Progress Bars Spinners",
+                  "Pagination Breadcrumb",
+                  "Cards",
+                  "Form",
+                  "Grid"
+                ]
+              },
+              {
+                "id": "l7siukjikksfoccwuk",
+                "title": "JavaScript",
+                "lessons": [
+                  "ضبط بيئة العمل",
+                  "Outputs",
+                  "Variables",
+                  "Console, Comments",
+                  "Athematic Operations",
+                  "String Methods",
+                  "Type Casting",
+                  "If Statements",
+                  "Switch",
+                  "Loops",
+                  "Nested Loops",
+                  "Control Statements",
+                  "Array",
+                  "Functions",
+                  "Recursion",
+                  "Math Library",
+                  "Object",
+                  "Set, get",
+                  "Constructor",
+                  "Class"
+                ]
+              },
+              {
+                "id": "l7siukk3pgq4d8j9xm",
+                "title": "jQuery",
+                "lessons": [
+                  "Selectors",
+                  "Events",
+                  "Effects & animation",
+                  "Dom Manipulation"
+                ]
+              }
+            ],
+            "reviewers": [
+              {
+                "id": "l7siukknk7hmv5ohwxb",
+                "name": "Okunlola Jamiu O.",
+                "initials": "OO",
+                "rating": 4.5,
+                "timeago": "3 months ago",
+                "review": "This course is a very good course for a beginner as well as an intermediate developer."
+              },
+              {
+                "id": "l7siukkok2kgvnsplof",
+                "name": "Manal A.",
+                "initials": "MA",
+                "rating": 5,
+                "timeago": "4 months ago",
+                "review": "شرح جميل باسلوب سهل لكن ارجو الاجابه عن الاسئلة عند سؤالك تركت لك سؤال ولم يتم الاجابه عليه كذلك بعثت لك عالتلجرام ولم يتم الاجابة عنه"
+              },
+              {
+                "id": "l7siukko1yx22p75k4tj",
+                "name": "Adham E.",
+                "initials": "AE",
+                "rating": 3.5,
+                "timeago": "4 months ago",
+                "review": "as a guide it's good course"
+              },
+              {
+                "id": "l7siukkod5tirokk7il",
+                "name": "Walid B.",
+                "initials": "WB",
+                "rating": 5,
+                "timeago": "4 months ago",
+                "review": "من أفضل المعلمين في المجال بالنسبة لي .. أتمنى أن أستطيع الانظمام الى كورسات أخرى من إنشاءه"
+              },
+              {
+                "id": "l7siukko1xurkyi1fhn",
+                "name": "Thaer",
+                "initials": "T",
+                "rating": 5,
+                "timeago": "5 months ago",
+                "review": "this course is the most useful course for web development ....thanks for udemy and p.hasan"
+              },
+              {
+                "id": "l7siukkomjlq4qa8wzc",
+                "name": "Ahmed Khalil A.",
+                "initials": "AA",
+                "rating": 5,
+                "timeago": "6 months ago",
+                "review": "رائع جدا"
+              },
+              {
+                "id": "l7siukkof6vnxv40vhk",
+                "name": "Dina A.",
+                "initials": "DA",
+                "rating": 5,
+                "timeago": "a month ago",
+                "review": "thanx alot for your effort"
+              },
+              {
+                "id": "l7siukko8tkj6w25pyg",
+                "name": "Mahmoud G.",
+                "initials": "",
+                "rating": 5,
+                "timeago": "5 months ago",
+                "review": "كورس جميل جدا للمبتدأ وشرح ممتاز ما شاء الله"
+              },
+              {
+                "id": "l7siukko8w6637iee9f",
+                "name": "Hayder L.",
+                "initials": "HL",
+                "rating": 5,
+                "timeago": "a month ago",
+                "review": "this is a nice course thank you very much"
+              },
+              {
+                "id": "l7siukkpxw2xtdeazs",
+                "name": "Mohammed Almogtba M.",
+                "initials": "MM",
+                "rating": 5,
+                "timeago": "7 months ago",
+                "review": "الصراحة انا مسمتع بالدروس وابحث واجرب شكرا لك استاذ حسن اتمني لك كل الخير"
+              },
+              {
+                "id": "l7siukkpe9p7mgwyiyo",
+                "name": "Mouadh J.",
+                "initials": "",
+                "rating": 5,
+                "timeago": "7 months ago",
+                "review": "so far it's really helping me out refresh and learn the new stuff"
+              },
+              {
+                "id": "l7siukkpv7jjklcawx",
+                "name": "Belal M.",
+                "initials": "BM",
+                "rating": 5,
+                "timeago": "4 months ago",
+                "review": "جميلة جدا الصراحة وفهمت بس اتمني تعمل جزء البرمجة الكائنيه وتهتم بيها"
+              }
+            ],
+            "requirements": ["لا تحتاج الى اي مؤهلات، هذه الدورة من الصفر"],
+            "descriptions": "",
+            "overview": [
+              "Create their own Python Programs",
+              "Become an experienced Python Programmer",
+              "Parse the Web and Create their own Games"
+            ],
+            "sectionsCount": "15",
+            "lecturesCount": "146",
+            "totalLength": "14h 42m",
+            "studentFeedback": ["43", "37", "15", "3", "2"],
+
+            "hoursCount": "14",
+            "articlesCount": "1",
+            "downloadableResource": "3"
+          }
+        ]
       }
     ],
     "Data Science": [
@@ -6442,7 +6703,394 @@
         "header": "Become an expert in cloud computing with AWS Certification",
         "intro": "Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you’ll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to become an AWS developer, we’ve got the course for you.",
 
-        "courses": [{}]
+        "courses": [
+          {
+            "id": "l7sh7hpgd3ppojv3dm",
+            "title": "Learn Python: The Complete Python Programming Course",
+            "description": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+            "link": "/course/pythonforbeginners/",
+            "img": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+            "instructors": [
+              {
+                "id": "l7sh7hpfh2zxixlmej",
+                "name": "Avinash Jain",
+                "job": "CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+                "img": "https://img-c.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+                "rating": 4.4,
+                "reviews": 73859,
+                "students": 892446,
+                "courses": 16,
+                "description": "    Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help. \n\nShow more"
+              },
+              {
+                "id": "l7sh7hpf800wk88gw8r",
+                "name": "The Codex",
+                "job": "Teaching Python through Projects",
+                "img": "https://img-c.udemycdn.com/user/200_H/52310762_220a.jpg",
+                "rating": 4.4,
+                "reviews": 73859,
+                "students": 892446,
+                "courses": 16,
+                "description": "You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to build fun, practical projects. Now, you can stand out from the crowd and land your dream job.\n\n\n\n\nJoin us on our platform today!\n\n\n\n\n\n\n\nShow more"
+              }
+            ],
+            "rating": 4.4,
+            "enrollments": 19526,
+            "totalreviews": 3223,
+            "price": 269.99,
+            "oldprice": 269.99,
+            "lastupdated": "9/2015",
+            "lectures": [
+              {
+                "id": "l7sh7hmvvezn92kzyt",
+                "title": "Up and Running With Python",
+                "lessons": ["Installing Python", "Hello World"]
+              },
+              {
+                "id": "l7sh7hn3k2avfhwmht",
+                "title": "The Basics (Data Types)",
+                "lessons": [
+                  "Variables",
+                  "Multiple Assignment",
+                  "Data Types and Ints",
+                  "Strings",
+                  "Placeholders",
+                  "Lists/Arrays",
+                  "List Functions",
+                  "Dictionaries",
+                  "Dictionary Functions",
+                  "Tuples",
+                  "Exercise Files"
+                ]
+              },
+              {
+                "id": "l7sh7hncahfoxhdsaxp",
+                "title": "Conditions and Loops",
+                "lessons": [
+                  "If-Else Statements",
+                  "Relational Operators",
+                  "Nested If/Else",
+                  "Elif Statements",
+                  "Logical Operators",
+                  "For Loops",
+                  "While Loops",
+                  "Nested For Loops",
+                  "Pass, Break and Continue",
+                  "Try and Except",
+                  "Commenting",
+                  "Quick Tips",
+                  "Exercise Files"
+                ]
+              },
+              {
+                "id": "l7sh7hnhdas3kg2dtk7",
+                "title": "Functions!",
+                "lessons": [
+                  "Creating our own Functions",
+                  "Global and Local Vars",
+                  "Abs and Bool",
+                  "Help and Dir",
+                  "Eval and Exec",
+                  "Str, Int, Float",
+                  "Recap and Sum"
+                ]
+              },
+              {
+                "id": "l7sh7hnnplf2e1rvw2n",
+                "title": "Classes! (Object Orientated Programming)",
+                "lessons": [
+                  "Basics of Classes",
+                  "Functions in Classes",
+                  "Class Attributes",
+                  "Inheritance",
+                  "Overriding Methods"
+                ]
+              },
+              {
+                "id": "l7sh7hnty8yrok9rbzn",
+                "title": "File Input/Output",
+                "lessons": [
+                  "Creating a File",
+                  "Creating a File (Windows)",
+                  "Reading a File",
+                  "Writing to a File",
+                  "Appending to Files",
+                  "Copying Files"
+                ]
+              },
+              {
+                "id": "l7sh7hnyedsopfdcgpg",
+                "title": "Using Python Modules",
+                "lessons": [
+                  "Random Module - Randint",
+                  "Guessing Game",
+                  "Guessing Game Challenge",
+                  "Random Module - Shuffle and Choice",
+                  "Sys Module",
+                  "Time Module",
+                  "Turtle Module",
+                  "For Loops in Turtle",
+                  "Up and Down Functions",
+                  "Coloring in Turtle",
+                  "Functions in Turtle",
+                  "Exercise Files"
+                ]
+              },
+              {
+                "id": "l7sh7ho5zcnmritrz9",
+                "title": "Crawling The Web",
+                "lessons": [
+                  "Re Module",
+                  "Crawling The Web (Stocks)",
+                  "Stock Quotes (.py)",
+                  "Crawling The Web (Weather)",
+                  "Weather (.py)",
+                  "Crawling The Web (Definition)",
+                  "Definition (.py)"
+                ]
+              },
+              {
+                "id": "l7sh7hoaimrg3blg3qi",
+                "title": "Beautiful Soup HTML Parsing",
+                "lessons": [
+                  "Intro to Beautiful Soup",
+                  "Installing the Beautiful Soup Module",
+                  "Prettify with Soup",
+                  "Drilling Down",
+                  "Functions in Soup",
+                  ".String and .Parent",
+                  "Searching in Soup",
+                  "Weather Parsing",
+                  "Antonym Parsing"
+                ]
+              },
+              {
+                "id": "l7sh7hof4zbds7ta65e",
+                "title": "MatPlotLib - Charts, Plots and 3D Figures!",
+                "lessons": [
+                  "Intro to MatPlotLib",
+                  "First Graph!",
+                  "Understanding the MatPlotLib Interface",
+                  "Graph Labels",
+                  "Creating a Graph from a File",
+                  "Understanding SubPlots and Figures",
+                  "Coloring of Graph",
+                  "Multiple Plots in a Graph",
+                  "Multiple Graphs in a Figure",
+                  "What about 3 graphs?",
+                  "Bar Graphs Intro",
+                  "Modifying our Bar Graph",
+                  "Pie Chart Intro",
+                  "Modifying our Pie Chart",
+                  "Adding a Legend",
+                  "3D Graphics Intro",
+                  "3D Scatter Plots",
+                  "Multiple 3D Scatter Plots",
+                  "3D Bar Graphs",
+                  "3D Wireframes"
+                ]
+              },
+              {
+                "id": "l7sh7homjc2u449j4r",
+                "title": "Data Analysis with Pandas!",
+                "lessons": [
+                  "Intro to Pandas",
+                  "Series Data Structure",
+                  "Series Continuation",
+                  "Data Frames Intro",
+                  "Creating a CSV",
+                  "Reading a CSV",
+                  "Writing to a CSV",
+                  "Getting our Data",
+                  "Slicing Data Frames",
+                  "Data Manipulation",
+                  "Indexing and More",
+                  "Merging Data Frames",
+                  "GroupBy Function",
+                  "MovieLens Data",
+                  "Heavy Data Analysis",
+                  "MatPlotLib with Pandas",
+                  "Let's Finish This"
+                ]
+              },
+              {
+                "id": "l7sh7hothza9ismeq1",
+                "title": "Python GUI with Tkinter",
+                "lessons": [
+                  "Tkinter Introduction",
+                  "Labels",
+                  "Buttons",
+                  "Layouts",
+                  "Fill",
+                  "Grid Layout",
+                  "Entries",
+                  "Check Buttons",
+                  "GUI Login",
+                  "Actions on Button Click",
+                  "Binding Functions",
+                  "More Binding!",
+                  "Getting Entry Data",
+                  "Message Box",
+                  "Drop Down Menus",
+                  "Calculator Part 1",
+                  "Calculator Part 2",
+                  "Calculator Part 3",
+                  "Calculator Part 4",
+                  "Canvas Intro",
+                  "Canvas Objects",
+                  "Canvas Fill",
+                  "Random Rectangle Generator",
+                  "Text and Arcs",
+                  "Animations"
+                ]
+              },
+              {
+                "id": "l7sh7hozyojatjvgj5",
+                "title": "Our First Game (Bounce!)",
+                "lessons": [
+                  "Creating our Ball",
+                  "Adding the Game Interface",
+                  "Adding the Paddle",
+                  "Final Touches",
+                  "Recap",
+                  "Bounce! (.py) (v1/v2/v3)"
+                ]
+              },
+              {
+                "id": "l7sh7hp5bawyyxa9vdo",
+                "title": "Our Second Game (Pong!)",
+                "lessons": [
+                  "Creating our Ball",
+                  "Adding Paddle1",
+                  "Adding Paddle2",
+                  "Final Touches",
+                  "Pong! (.py)"
+                ]
+              },
+              {
+                "id": "l7sh7hpazlsl3u12bq",
+                "title": "What's Next?",
+                "lessons": ["Up and Beyond!"]
+              }
+            ],
+            "reviewers": [
+              {
+                "id": "l7sh7hpfc3zhiedf5s7",
+                "name": "Asif H.",
+                "initials": "AH",
+                "rating": 3,
+                "timeago": "2 weeks ago",
+                "review": "Sometimes confusing but was able to clarify. Good job nonetheless."
+              },
+              {
+                "id": "l7sh7hpgq0n2olpjmfc",
+                "name": "M.S.Swaroop",
+                "initials": "M",
+                "rating": 4,
+                "timeago": "3 weeks ago",
+                "review": "the course is specialized so that we learn ourselves deeply,simple and easy"
+              },
+              {
+                "id": "l7sh7hpgbm3daceisao",
+                "name": "Saurish R.",
+                "initials": "SR",
+                "rating": 5,
+                "timeago": "2 months ago",
+                "review": "In depth concepts of python have been clearly explained. Good chemistry between student and instructor. Fantastic course. Completed every vid and had lot of fun"
+              },
+              {
+                "id": "l7sh7hpgjwyo322ubmo",
+                "name": "Shiristi",
+                "initials": "S",
+                "rating": 5,
+                "timeago": "3 months ago",
+                "review": "i can't say as i have not taken that many classes yet but so far it is good.\n\nedited( so yeah it was a journey for me many things happen but i am glad they did and also grateful to the person who is guiding me and thanks udemy for these courses really appreciate it !!!)"
+              },
+              {
+                "id": "l7sh7hpgjnjqpjwwor",
+                "name": "Ejeshi G.",
+                "initials": "EG",
+                "rating": 4,
+                "timeago": "4 months ago",
+                "review": "teacher is good and direct, though not prompt at responding to questions and enquiries"
+              },
+              {
+                "id": "l7sh7hpgxn7uur2y8eg",
+                "name": "Sreelakshmi A.",
+                "initials": "SA",
+                "rating": 3,
+                "timeago": "2 months ago",
+                "review": "The contents are good for getting a good idea about Python. But it's little bit outdated. Instructor is good. But the sound quality can be improved. Please try to update the content. The course is almost 5 - 6 years old. So, think before purchasing."
+              },
+              {
+                "id": "l7sh7hpgx25y0dfg7o",
+                "name": "Shyam K.",
+                "initials": "SK",
+                "rating": 2,
+                "timeago": "2 weeks ago",
+                "review": "not from the basic .many small but very irritating error comes and i was not able to find the solution in a week also . so it is not satisfying. educator should at least disscuss about all that possible errors."
+              },
+              {
+                "id": "l7sh7hpg8pajslltqhi",
+                "name": "Matthew E G.",
+                "initials": "MG",
+                "rating": 3.5,
+                "timeago": "a month ago",
+                "review": "I took this course with Python 3.10 utilizing PyCharm as an IDE, so some of the information is a little dated. With that being said, good basics are covered to where figuring out your solution isn't anything too difficult. This course was definitely incredibly helpful in taking a bigger plunge into Python."
+              },
+              {
+                "id": "l7sh7hpgfnakq6zh735",
+                "name": "Todd G.",
+                "initials": "TG",
+                "rating": 5,
+                "timeago": "2 months ago",
+                "review": "I am still making my way through the course. However, I like the structure and the pace as well as the pdf exercises. I was learning by watching youtube but it is nice having a structured lesson that gradually progresses in difficulty. It's also nice having a certificate as a way to validate what I've learned to others."
+              },
+              {
+                "id": "l7sh7hpgurmpk8dtbc",
+                "name": "Bill R.",
+                "initials": "BR",
+                "rating": 3.5,
+                "timeago": "4 months ago",
+                "review": "Left mouse pointer on text frequently\n\nRecording setup picked up heavy key strikes making listening difficult.\n\nSolved problems well as they came.\n\nCovered many functions of python and seemed knowledgeable."
+              },
+              {
+                "id": "l7sh7hpgor0m11trkgm",
+                "name": "Rahul T.",
+                "initials": "RT",
+                "rating": 4.5,
+                "timeago": "a month ago",
+                "review": "As this course is old now so the codes we take from websites are not there as the websites are updated so please update this course."
+              },
+              {
+                "id": "l7sh7hpg8imyw0411n",
+                "name": "Ritesh Amar S.",
+                "initials": "RS",
+                "rating": 4.5,
+                "timeago": "a month ago",
+                "review": "The course was amazing . Learned a lot new things."
+              }
+            ],
+            "requirements": [
+              "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+              "Internet Connection"
+            ],
+            "descriptions": "**Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?**\n\nIf you’re looking to learn Python for the very **first time** or need a **quick brush-up**, this is the course for you!\n\nPython has rapidly become one of the **most popular programming languages** around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes **over $100,000** - this number is only going to grow in the coming years.\n\nThe best part? Python is one of the **easiest coding languages** to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an **absolute pro** at programming!\n\nThis course will cover **all the basics** and **several advanced concepts** of Python. We’ll go over:\n\n* The fundamentals of Python programming\n\n* Writing and Reading to Files\n\n* Automation of Word and Excel Files\n\n* Web scraping with BeautifulSoup4\n\n* Browser automation with Selenium\n\n* Data Analysis and Visualization with MatPlotLib\n\n* Regex parsing and Task Management\n\n* GUI and Gaming with Tkinter\n\n* And much more!\n\nIf you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for *almost 4 years,* I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over *200,000+ students* from over *200 countries* jumpstart their programming journeys through my courses.\n\nHere’s what some of my students have to say:\n\n* “I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!”\n\n\n\n\n* “I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)”\n\n\n\n\n* “Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.”\n\nSo what are you waiting for? *Jumpstart your programming journey* and dive into the world of Python by *enrolling in this course today!*",
+            "overview": [
+              "Create their own Python Programs",
+              "Become an experienced Python Programmer",
+              "Parse the Web and Create their own Games"
+            ],
+            "sectionsCount": "15",
+            "lecturesCount": "146",
+            "totalLength": "14h 42m",
+            "studentFeedback": ["43", "37", "15", "3", "2"],
+
+            "hoursCount": "14",
+            "articlesCount": "1",
+            "downloadableResource": "3"
+          }
+        ]
       }
     ],
     "Drawing": [
@@ -6450,7 +7098,394 @@
         "title": "Top courses in Python",
         "header": "Expand your creative skillset with Drawing",
         "intro": "Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area you’d like to improve with a specialized course. We’ve got tons of options to get — and keep — you going.",
-        "courses": [{}]
+        "courses": [
+          {
+            "id": "l7sh7hpgd3ppojv3dm",
+            "title": "Learn Python: The Complete Python Programming Course",
+            "description": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+            "link": "/course/pythonforbeginners/",
+            "img": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+            "instructors": [
+              {
+                "id": "l7sh7hpfh2zxixlmej",
+                "name": "Avinash Jain",
+                "job": "CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+                "img": "https://img-c.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+                "rating": 4.4,
+                "reviews": 73859,
+                "students": 892446,
+                "courses": 16,
+                "description": "    Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.\n\nHis programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks.\n\nAvinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses.\n\nCheckout TheCodex for all of his courses, fantastic discounts, and any guidance or help. \n\nShow more"
+              },
+              {
+                "id": "l7sh7hpf800wk88gw8r",
+                "name": "The Codex",
+                "job": "Teaching Python through Projects",
+                "img": "https://img-c.udemycdn.com/user/200_H/52310762_220a.jpg",
+                "rating": 4.4,
+                "reviews": 73859,
+                "students": 892446,
+                "courses": 16,
+                "description": "You've taken a lengthy and boring coding class, but you're clueless about applying these concepts to build your ideas. The Codex shows you how to build fun, practical projects. Now, you can stand out from the crowd and land your dream job.\n\n\n\n\nJoin us on our platform today!\n\n\n\n\n\n\n\nShow more"
+              }
+            ],
+            "rating": 4.4,
+            "enrollments": 19526,
+            "totalreviews": 3223,
+            "price": 269.99,
+            "oldprice": 269.99,
+            "lastupdated": "9/2015",
+            "lectures": [
+              {
+                "id": "l7sh7hmvvezn92kzyt",
+                "title": "Up and Running With Python",
+                "lessons": ["Installing Python", "Hello World"]
+              },
+              {
+                "id": "l7sh7hn3k2avfhwmht",
+                "title": "The Basics (Data Types)",
+                "lessons": [
+                  "Variables",
+                  "Multiple Assignment",
+                  "Data Types and Ints",
+                  "Strings",
+                  "Placeholders",
+                  "Lists/Arrays",
+                  "List Functions",
+                  "Dictionaries",
+                  "Dictionary Functions",
+                  "Tuples",
+                  "Exercise Files"
+                ]
+              },
+              {
+                "id": "l7sh7hncahfoxhdsaxp",
+                "title": "Conditions and Loops",
+                "lessons": [
+                  "If-Else Statements",
+                  "Relational Operators",
+                  "Nested If/Else",
+                  "Elif Statements",
+                  "Logical Operators",
+                  "For Loops",
+                  "While Loops",
+                  "Nested For Loops",
+                  "Pass, Break and Continue",
+                  "Try and Except",
+                  "Commenting",
+                  "Quick Tips",
+                  "Exercise Files"
+                ]
+              },
+              {
+                "id": "l7sh7hnhdas3kg2dtk7",
+                "title": "Functions!",
+                "lessons": [
+                  "Creating our own Functions",
+                  "Global and Local Vars",
+                  "Abs and Bool",
+                  "Help and Dir",
+                  "Eval and Exec",
+                  "Str, Int, Float",
+                  "Recap and Sum"
+                ]
+              },
+              {
+                "id": "l7sh7hnnplf2e1rvw2n",
+                "title": "Classes! (Object Orientated Programming)",
+                "lessons": [
+                  "Basics of Classes",
+                  "Functions in Classes",
+                  "Class Attributes",
+                  "Inheritance",
+                  "Overriding Methods"
+                ]
+              },
+              {
+                "id": "l7sh7hnty8yrok9rbzn",
+                "title": "File Input/Output",
+                "lessons": [
+                  "Creating a File",
+                  "Creating a File (Windows)",
+                  "Reading a File",
+                  "Writing to a File",
+                  "Appending to Files",
+                  "Copying Files"
+                ]
+              },
+              {
+                "id": "l7sh7hnyedsopfdcgpg",
+                "title": "Using Python Modules",
+                "lessons": [
+                  "Random Module - Randint",
+                  "Guessing Game",
+                  "Guessing Game Challenge",
+                  "Random Module - Shuffle and Choice",
+                  "Sys Module",
+                  "Time Module",
+                  "Turtle Module",
+                  "For Loops in Turtle",
+                  "Up and Down Functions",
+                  "Coloring in Turtle",
+                  "Functions in Turtle",
+                  "Exercise Files"
+                ]
+              },
+              {
+                "id": "l7sh7ho5zcnmritrz9",
+                "title": "Crawling The Web",
+                "lessons": [
+                  "Re Module",
+                  "Crawling The Web (Stocks)",
+                  "Stock Quotes (.py)",
+                  "Crawling The Web (Weather)",
+                  "Weather (.py)",
+                  "Crawling The Web (Definition)",
+                  "Definition (.py)"
+                ]
+              },
+              {
+                "id": "l7sh7hoaimrg3blg3qi",
+                "title": "Beautiful Soup HTML Parsing",
+                "lessons": [
+                  "Intro to Beautiful Soup",
+                  "Installing the Beautiful Soup Module",
+                  "Prettify with Soup",
+                  "Drilling Down",
+                  "Functions in Soup",
+                  ".String and .Parent",
+                  "Searching in Soup",
+                  "Weather Parsing",
+                  "Antonym Parsing"
+                ]
+              },
+              {
+                "id": "l7sh7hof4zbds7ta65e",
+                "title": "MatPlotLib - Charts, Plots and 3D Figures!",
+                "lessons": [
+                  "Intro to MatPlotLib",
+                  "First Graph!",
+                  "Understanding the MatPlotLib Interface",
+                  "Graph Labels",
+                  "Creating a Graph from a File",
+                  "Understanding SubPlots and Figures",
+                  "Coloring of Graph",
+                  "Multiple Plots in a Graph",
+                  "Multiple Graphs in a Figure",
+                  "What about 3 graphs?",
+                  "Bar Graphs Intro",
+                  "Modifying our Bar Graph",
+                  "Pie Chart Intro",
+                  "Modifying our Pie Chart",
+                  "Adding a Legend",
+                  "3D Graphics Intro",
+                  "3D Scatter Plots",
+                  "Multiple 3D Scatter Plots",
+                  "3D Bar Graphs",
+                  "3D Wireframes"
+                ]
+              },
+              {
+                "id": "l7sh7homjc2u449j4r",
+                "title": "Data Analysis with Pandas!",
+                "lessons": [
+                  "Intro to Pandas",
+                  "Series Data Structure",
+                  "Series Continuation",
+                  "Data Frames Intro",
+                  "Creating a CSV",
+                  "Reading a CSV",
+                  "Writing to a CSV",
+                  "Getting our Data",
+                  "Slicing Data Frames",
+                  "Data Manipulation",
+                  "Indexing and More",
+                  "Merging Data Frames",
+                  "GroupBy Function",
+                  "MovieLens Data",
+                  "Heavy Data Analysis",
+                  "MatPlotLib with Pandas",
+                  "Let's Finish This"
+                ]
+              },
+              {
+                "id": "l7sh7hothza9ismeq1",
+                "title": "Python GUI with Tkinter",
+                "lessons": [
+                  "Tkinter Introduction",
+                  "Labels",
+                  "Buttons",
+                  "Layouts",
+                  "Fill",
+                  "Grid Layout",
+                  "Entries",
+                  "Check Buttons",
+                  "GUI Login",
+                  "Actions on Button Click",
+                  "Binding Functions",
+                  "More Binding!",
+                  "Getting Entry Data",
+                  "Message Box",
+                  "Drop Down Menus",
+                  "Calculator Part 1",
+                  "Calculator Part 2",
+                  "Calculator Part 3",
+                  "Calculator Part 4",
+                  "Canvas Intro",
+                  "Canvas Objects",
+                  "Canvas Fill",
+                  "Random Rectangle Generator",
+                  "Text and Arcs",
+                  "Animations"
+                ]
+              },
+              {
+                "id": "l7sh7hozyojatjvgj5",
+                "title": "Our First Game (Bounce!)",
+                "lessons": [
+                  "Creating our Ball",
+                  "Adding the Game Interface",
+                  "Adding the Paddle",
+                  "Final Touches",
+                  "Recap",
+                  "Bounce! (.py) (v1/v2/v3)"
+                ]
+              },
+              {
+                "id": "l7sh7hp5bawyyxa9vdo",
+                "title": "Our Second Game (Pong!)",
+                "lessons": [
+                  "Creating our Ball",
+                  "Adding Paddle1",
+                  "Adding Paddle2",
+                  "Final Touches",
+                  "Pong! (.py)"
+                ]
+              },
+              {
+                "id": "l7sh7hpazlsl3u12bq",
+                "title": "What's Next?",
+                "lessons": ["Up and Beyond!"]
+              }
+            ],
+            "reviewers": [
+              {
+                "id": "l7sh7hpfc3zhiedf5s7",
+                "name": "Asif H.",
+                "initials": "AH",
+                "rating": 3,
+                "timeago": "2 weeks ago",
+                "review": "Sometimes confusing but was able to clarify. Good job nonetheless."
+              },
+              {
+                "id": "l7sh7hpgq0n2olpjmfc",
+                "name": "M.S.Swaroop",
+                "initials": "M",
+                "rating": 4,
+                "timeago": "3 weeks ago",
+                "review": "the course is specialized so that we learn ourselves deeply,simple and easy"
+              },
+              {
+                "id": "l7sh7hpgbm3daceisao",
+                "name": "Saurish R.",
+                "initials": "SR",
+                "rating": 5,
+                "timeago": "2 months ago",
+                "review": "In depth concepts of python have been clearly explained. Good chemistry between student and instructor. Fantastic course. Completed every vid and had lot of fun"
+              },
+              {
+                "id": "l7sh7hpgjwyo322ubmo",
+                "name": "Shiristi",
+                "initials": "S",
+                "rating": 5,
+                "timeago": "3 months ago",
+                "review": "i can't say as i have not taken that many classes yet but so far it is good.\n\nedited( so yeah it was a journey for me many things happen but i am glad they did and also grateful to the person who is guiding me and thanks udemy for these courses really appreciate it !!!)"
+              },
+              {
+                "id": "l7sh7hpgjnjqpjwwor",
+                "name": "Ejeshi G.",
+                "initials": "EG",
+                "rating": 4,
+                "timeago": "4 months ago",
+                "review": "teacher is good and direct, though not prompt at responding to questions and enquiries"
+              },
+              {
+                "id": "l7sh7hpgxn7uur2y8eg",
+                "name": "Sreelakshmi A.",
+                "initials": "SA",
+                "rating": 3,
+                "timeago": "2 months ago",
+                "review": "The contents are good for getting a good idea about Python. But it's little bit outdated. Instructor is good. But the sound quality can be improved. Please try to update the content. The course is almost 5 - 6 years old. So, think before purchasing."
+              },
+              {
+                "id": "l7sh7hpgx25y0dfg7o",
+                "name": "Shyam K.",
+                "initials": "SK",
+                "rating": 2,
+                "timeago": "2 weeks ago",
+                "review": "not from the basic .many small but very irritating error comes and i was not able to find the solution in a week also . so it is not satisfying. educator should at least disscuss about all that possible errors."
+              },
+              {
+                "id": "l7sh7hpg8pajslltqhi",
+                "name": "Matthew E G.",
+                "initials": "MG",
+                "rating": 3.5,
+                "timeago": "a month ago",
+                "review": "I took this course with Python 3.10 utilizing PyCharm as an IDE, so some of the information is a little dated. With that being said, good basics are covered to where figuring out your solution isn't anything too difficult. This course was definitely incredibly helpful in taking a bigger plunge into Python."
+              },
+              {
+                "id": "l7sh7hpgfnakq6zh735",
+                "name": "Todd G.",
+                "initials": "TG",
+                "rating": 5,
+                "timeago": "2 months ago",
+                "review": "I am still making my way through the course. However, I like the structure and the pace as well as the pdf exercises. I was learning by watching youtube but it is nice having a structured lesson that gradually progresses in difficulty. It's also nice having a certificate as a way to validate what I've learned to others."
+              },
+              {
+                "id": "l7sh7hpgurmpk8dtbc",
+                "name": "Bill R.",
+                "initials": "BR",
+                "rating": 3.5,
+                "timeago": "4 months ago",
+                "review": "Left mouse pointer on text frequently\n\nRecording setup picked up heavy key strikes making listening difficult.\n\nSolved problems well as they came.\n\nCovered many functions of python and seemed knowledgeable."
+              },
+              {
+                "id": "l7sh7hpgor0m11trkgm",
+                "name": "Rahul T.",
+                "initials": "RT",
+                "rating": 4.5,
+                "timeago": "a month ago",
+                "review": "As this course is old now so the codes we take from websites are not there as the websites are updated so please update this course."
+              },
+              {
+                "id": "l7sh7hpg8imyw0411n",
+                "name": "Ritesh Amar S.",
+                "initials": "RS",
+                "rating": 4.5,
+                "timeago": "a month ago",
+                "review": "The course was amazing . Learned a lot new things."
+              }
+            ],
+            "requirements": [
+              "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+              "Internet Connection"
+            ],
+            "descriptions": "**Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more?**\n\nIf you’re looking to learn Python for the very **first time** or need a **quick brush-up**, this is the course for you!\n\nPython has rapidly become one of the **most popular programming languages** around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes **over $100,000** - this number is only going to grow in the coming years.\n\nThe best part? Python is one of the **easiest coding languages** to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an **absolute pro** at programming!\n\nThis course will cover **all the basics** and **several advanced concepts** of Python. We’ll go over:\n\n* The fundamentals of Python programming\n\n* Writing and Reading to Files\n\n* Automation of Word and Excel Files\n\n* Web scraping with BeautifulSoup4\n\n* Browser automation with Selenium\n\n* Data Analysis and Visualization with MatPlotLib\n\n* Regex parsing and Task Management\n\n* GUI and Gaming with Tkinter\n\n* And much more!\n\nIf you read the above list and are feeling a bit confused, don’t worry! As an instructor and student on Udemy for *almost 4 years,* I know what it’s like to be overwhelmed with boring and mundane. I promise you’ll have a blast learning the ins and outs of python. I’ve successfully taught over *200,000+ students* from over *200 countries* jumpstart their programming journeys through my courses.\n\nHere’s what some of my students have to say:\n\n* “I wish I started programming at a younger age like Avi.  This Python course was excellent for those that cringe at the thought of starting over from scratch with attempts to write programs once again. Python is a great building language for any beginner programmer. Thank you Avi!”\n\n\n\n\n* “I had no idea about any programming language. With Avi's lectures, I'm now aware of several python concepts and I'm beginning to write my own programs. Avi is crisp and clear in his lectures and it is easy to catch the concepts and the depth of it through his explanations. Thanks, Avi for the wonderful course, You're awesome! It's helping me a lot :)”\n\n\n\n\n* “Videos are short and concise and well-defined in their title, this makes them easy to refer back to when a refresher is needed. Explanations aren't convoluted with complicated examples, which adds to the quick pace of the videos. I am very pleased with the decision to enroll in this course. Not only has it increased the pace I'm learning Python but I actively look forward to continuing the course, whenever I get the chance. Avi is friendly and energetic, absolutely delightful as an instructor.”\n\nSo what are you waiting for? *Jumpstart your programming journey* and dive into the world of Python by *enrolling in this course today!*",
+            "overview": [
+              "Create their own Python Programs",
+              "Become an experienced Python Programmer",
+              "Parse the Web and Create their own Games"
+            ],
+            "sectionsCount": "15",
+            "lecturesCount": "146",
+            "totalLength": "14h 42m",
+            "studentFeedback": ["43", "37", "15", "3", "2"],
+
+            "hoursCount": "14",
+            "articlesCount": "1",
+            "downloadableResource": "3"
+          }
+        ]
       }
     ],
     "JavaScript": [

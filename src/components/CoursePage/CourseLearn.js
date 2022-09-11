@@ -1,7 +1,14 @@
 import React from "react";
 import style from "../../style_modules/CoursePage/CourseLearn.module.css";
-function CourseLearn({ courseInfo, useref }) {
-  const Learn = courseInfo.overview.map((item, index) => {
+/**
+ *
+ * @param {object} Overview conatin overview about course
+ * @param {ref} useref get refernce to used in scroll component
+ *
+ * @returns
+ */
+function CourseLearn({ Overview, useref }) {
+  const Learn = Overview.map((item, index) => {
     return (
       <li key={index} className={style.item}>
         <img

@@ -1,8 +1,12 @@
 import { React, useState } from "react";
 import CountStars from "../CountStars";
 import style from "../../style_modules/CoursePage/CourseInformation.module.css";
+/**
+ *
+ * @param {*} courseInfo contain all data relate about course
+ * @returns
+ */
 function CourseInformation({ courseInfo }) {
-  const [add, setadd] = useState(0);
   return (
     <>
       <div className={style.background}>
@@ -29,7 +33,9 @@ function CourseInformation({ courseInfo }) {
                   src={require("../../images/play_large.png")}
                   alt="screen"
                 />
-                <span className={style.Preview}>Preview this Course</span>
+                <span id="LOL" className={style.Preview}>
+                  Preview this Course
+                </span>
                 {data(courseInfo)}
               </div>
             </div>
@@ -55,7 +61,11 @@ function InstructorNames(props) {
   });
   return <span>{str}</span>;
 }
-
+/**
+ *
+ * @param {*} courseInfo  contain all data relate about course
+ * @returns jsx of card item
+ */
 function data(courseInfo) {
   return (
     <>

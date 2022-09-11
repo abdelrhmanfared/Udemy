@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import CountStars from "../CountStars";
 import style from "../../style_modules/CoursePage/ReviewOfUser.module.css";
+/**
+ * @description make Review Component and make text bold when used in search
+ * @param {object} userReview  Review of one user
+ * @param {Array} Bold_Elmenet contain the array of words used in search
+ * @returns jsx of Review Component
+ */
 function ReveiwofUser({ userReview, Bold_Elmenet }) {
   const [like, setLike] = useState(false);
   const [dislike, setDislike] = useState(false);

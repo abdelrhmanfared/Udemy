@@ -1,10 +1,14 @@
 import React from "react";
 import style from "./Footer.module.css";
+/**
+ * @description Make Footer
+ * @returns Footer
+ */
 function Footer() {
   return (
     <>
-      <div className={style.foot}>
-        <button className={style.btn2}>
+      <div className={style.Footer_Parent}>
+        <button className={style.Englis_btn}>
           <img
             className={style.worldicon}
             src={require("../images/world.png")}
@@ -35,7 +39,7 @@ function Footer() {
         </div>
         <div className={style.footer2}>
           <div>
-            <button className={style.btn}>
+            <button className={style.btn_World}>
               <img
                 className={style.worldicon}
                 src={require("../images/world.png")}

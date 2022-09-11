@@ -1,8 +1,14 @@
 import { React, useState, useEffect } from "react";
 import style from "../../style_modules/CoursePage/CourseHeaderData.module.css";
 import useWindowDimensions from "./useWindowDimensions";
+/**
+ *
+ * @param {*} courseInfo data related to course
+ * @returns
+ */
 function CourseHeaderData({ courseInfo }) {
   const { height, width } = useWindowDimensions();
+
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
     const position = window.pageYOffset;

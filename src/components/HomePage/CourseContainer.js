@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import Carousel from "react-grid-carousel";
 
@@ -10,6 +10,11 @@ import style from "../../style_modules/HomePage/CourseContainer.module.css";
  * @returns Block of  Courses
  */
 function CourseContainer(props) {
+  const use_ref = useRef(null);
+  const get_Offset = () => {
+    console.log(use_ref.current.offsetLeft);
+    return use_ref.current.offsetLeft;
+  };
   const [SearchParams] = useSearchParams();
   let SearchValue = SearchParams.get("search");
   if (SearchValue == null) SearchValue = "";
@@ -21,12 +26,12 @@ function CourseContainer(props) {
   const v = filteredCourses.map((cour, index) => {
     return (
       <Carousel.Item key={index}>
-        <Course key={cour.id} course={cour} />
+        <Course Offset={get_Offset} key={cour.id} course={cour} />
       </Carousel.Item>
     );
   });
   return (
-    <div className={style.course_info}>
+    <div ref={use_ref} className={style.Carousel_Cards}>
       <Carousel
         cols={5}
         rows={1}
@@ -46,6 +51,24 @@ function CourseContainer(props) {
             cols: 4,
           },
         ]}
+        arrowRight={
+          <div className={style.arrow_right}>
+            <img
+              className={style.Img_arrow_right}
+              src={require("../../images/right-arrow.png")}
+              alt="left-arrow"
+            />
+          </div>
+        }
+        arrowLeft={
+          <div className={style.arrow_left}>
+            <img
+              className={style.Img_arrow_left}
+              src={require("../../images/left-arrow.png")}
+              alt="left-arrow"
+            />
+          </div>
+        }
       >
         {v}
       </Carousel>

@@ -1,5 +1,13 @@
 import { React, useState, useEffect } from "react";
 import style from "../../style_modules/CoursePage/Scroll.module.css";
+/**
+ *
+ * @param {ref} overview
+ * @param {ref} Curriculum
+ * @param {ref} Instructor
+ * @param {ref} Reviews
+ * @returns
+ */
 function Scroll({ overview, Curriculum, Instructor, Reviews }) {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {

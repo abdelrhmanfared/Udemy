@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import style from "../../style_modules/CoursePage/CourseContent.module.css";
 import CustomizeAccordion from "./CustomizeAccordion";
 let array = [];
-function CourseContent(props) {
+/**
+ *
+ * @param {object} Content conatin Course content
+ * @returns
+ */
+function CourseContent({ Content }) {
   const [show, setShow] = useState(0);
   const [here, setHere] = useState(0);
 
@@ -11,20 +16,18 @@ function CourseContent(props) {
       <h2>Course content</h2>
       <div className={style.content_data}>
         <span className={style.dataAboutCourse}>
-          {props.courseInfo.sectionsCount +
+          {Content.sectionsCount +
             " sections ." +
-            props.courseInfo.lecturesCount +
+            Content.lecturesCount +
             " lectures  ." +
-            props.courseInfo.totalLength +
+            Content.totalLength +
             " total length"}
         </span>
         <button
           onClick={() => {
             setShow(!show);
             setHere(0);
-            array = show
-              ? []
-              : [...Array(props.courseInfo.lectures.length).keys()];
+            array = show ? [] : [...Array(Content.lectures.length).keys()];
           }}
           className={style.Expand}
         >
@@ -32,7 +35,7 @@ function CourseContent(props) {
         </button>
       </div>
       <CustomizeAccordion
-        data={props.courseInfo}
+        data={Content}
         Expand={show}
         control={here}
         arr={array}

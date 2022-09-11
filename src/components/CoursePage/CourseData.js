@@ -1,5 +1,5 @@
 import { React, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import style from "../../style_modules/CoursePage/CourseData.module.css";
 import CourseInformation from "./CourseInformation";
 import CourseLearn from "./CourseLearn";
@@ -36,9 +36,9 @@ function CourseData() {
             Instructor={instructor}
             Reviews={feedback}
           />
-          <CourseLearn useref={courseLearn} courseInfo={d} />
-          <CourseContent courseInfo={d} />
-          <Requirement courseInfo={d} />
+          <CourseLearn useref={courseLearn} Overview={d.overview} />
+          <CourseContent Content={d} />
+          <Requirement requirement={d.requirements} />
           <Description
             isInstructor={1}
             useref={myDescription}

@@ -1,5 +1,10 @@
 import React from "react";
 import style from "../../style_modules/CoursePage/FooterCourses.module.css";
+/**
+ *
+ * @param {ref} useref used in another component to get height of item
+ * @returns
+ */
 function FooterCourses({ useref }) {
   return (
     <div ref={useref} id="Footer" className={style.footer}>

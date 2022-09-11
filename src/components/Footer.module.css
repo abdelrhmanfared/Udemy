@@ -1,5 +1,4 @@
-.foot{
-    height: 180px;
+.Footer_Parent{
     background-color: #1c1d1f;
     border-top: 1px solid #3e4143;
     display: flex;
@@ -16,7 +15,7 @@
 .footer2{
     flex-grow:6 ;
 }
-.btn{
+.btn_World{
     float: right;
     background-color: #1c1d1f;
     border: 1px solid #fff;
@@ -40,7 +39,7 @@
      width: 100px;
      margin-left: 48px;
 }
-.btn2{
+.Englis_btn{
     display: none;
 }
 .udemy_date{
@@ -53,10 +52,14 @@
     height: 100%;
     padding-left: 32px;
 }
-.btn{
+.btn_World{
     display: none;
 }
-.btn2{
+.Footer_Parent{
+    display: flex;
+    flex-direction: column;
+}
+.Englis_btn{
     display: block;
     float: right;
     background-color: #1c1d1f;

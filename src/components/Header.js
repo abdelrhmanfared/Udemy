@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import style from "./Header.module.css";
-
+/**
+ * @description Make header
+ * @returns Jsx conatain header
+ */
 function Header() {
   const [show, setShow] = useState(1);
   const ShowData = () => {

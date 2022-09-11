@@ -2,6 +2,13 @@ import { Accordion } from "react-bootstrap";
 import { React, useEffect, useState } from "react";
 import style from "../../style_modules/CoursePage/CustomizeAccordion.module.css";
 import CollapseData from "./CollapseData";
+/**
+ *
+ * @param {string} children contain Header of accoridon
+ * @param {boolean} expand  flip image
+ * @param {lesson} contain lessons name
+ * @returns
+ */
 function CustomToggle({ children, expand, lesson }) {
   const [Rotate, setRotate] = useState(0);
   useEffect(() => setRotate(expand), [expand]);
@@ -27,6 +34,11 @@ const FlipImage = (Rotate) => {
   );
 };
 
+/**
+ *
+ * @param {*} props conatin array of active key and data about course content
+ * @returns
+ */
 function CustomizeAccordion(props) {
   const [showMore, setShowMore] = useState(0);
 

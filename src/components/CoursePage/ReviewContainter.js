@@ -1,7 +1,11 @@
 import { React, useRef, useState } from "react";
 import style from "../../style_modules/CoursePage/ReviewContainter.module.css";
 import ReviewOfUser from "./ReviewOfUser";
-
+/**
+ *
+ * @param {object} courseInfo conatain all data related with course
+ * @returns
+ */
 function ReviewContainter({ courseInfo }) {
   const [show, setShow] = useState(false);
   const [rate, setRate] = useState(-1);
@@ -20,7 +24,7 @@ function ReviewContainter({ courseInfo }) {
   courseInfo.map((item) => {
     let res = item.review.split(" ");
     let ok = 1;
-    res.map((element) => {
+    const D = res.map((element) => {
       if (Search.includes(element) || Search.length === 0) {
         ok = 0;
         if (!Words_Bold.includes(element) && Search.length !== 0)

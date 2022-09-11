@@ -52,8 +52,7 @@
 .course_content{
     max-width: 90%;
     width: 1300px;
-    padding: 0;
-    padding-left: 30px;
+    padding: 0 6px;
     border: 3px solid black;
   }
   

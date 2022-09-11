@@ -1,6 +1,9 @@
 import React from "react";
 import Category from "./Category";
-
+/**
+ * @description Create Category of Data by using object to fill data and iterate over  object
+ * @returns Category item
+ */
 function Categories() {
   const Data = {
     Design:

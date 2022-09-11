@@ -1,6 +1,10 @@
 import React, { useRef } from "react";
 import style from "./Navbar.module.css";
 import { Link, useSearchParams } from "react-router-dom";
+/**
+ * @description Create nav par
+ * @returns Jsx of Nav par
+ */
 function Navbar() {
   const inputref = useRef("");
   const [searchParams, setSearchParams] = useSearchParams();
