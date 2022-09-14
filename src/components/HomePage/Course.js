@@ -99,6 +99,7 @@ function Course(props) {
       >
         <div
           ref={useref}
+          style={enter ? { cursor: "pointer" } : {}}
           onMouseEnter={() => {
             setEnter(true);
             check(

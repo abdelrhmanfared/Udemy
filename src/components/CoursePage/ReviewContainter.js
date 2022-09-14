@@ -14,7 +14,6 @@ function ReviewContainter({ courseInfo }) {
   const [Search, setSearch] = useState([]);
   const filter = () => {
     let str = inputref.current.value;
-    console.log(str);
     if (str !== "") {
       setSearch(str.split(" "));
     } else setSearch([]);
@@ -22,7 +21,9 @@ function ReviewContainter({ courseInfo }) {
   const Data_Reviews = [];
   const Words_Bold = [];
   courseInfo.map((item) => {
+    // res convert the review description to array of strinf
     let res = item.review.split(" ");
+    // ok describe if word exist in this review or not
     let ok = 1;
     const D = res.map((element) => {
       if (Search.includes(element) || Search.length === 0) {

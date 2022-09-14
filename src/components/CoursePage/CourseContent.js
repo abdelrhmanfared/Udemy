@@ -8,8 +8,8 @@ let array = [];
  * @returns
  */
 function CourseContent({ Content }) {
-  const [show, setShow] = useState(0);
-  const [here, setHere] = useState(0);
+  const [show, setShow] = useState(false);
+  const [here, setHere] = useState(false);
 
   return (
     <div className={style.Content}>
@@ -26,7 +26,7 @@ function CourseContent({ Content }) {
         <button
           onClick={() => {
             setShow(!show);
-            setHere(0);
+            setHere(false);
             array = show ? [] : [...Array(Content.lectures.length).keys()];
           }}
           className={style.Expand}

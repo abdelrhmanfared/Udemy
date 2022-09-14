@@ -31,14 +31,14 @@ function CourseCard({ courseInfo, useref }) {
         >
           <div
             style={
-              scrollPosition > document.documentElement.offsetHeight - 1490
-                ? { top: document.documentElement.offsetHeight - 1490 }
+              scrollPosition > document.documentElement.offsetHeight - 1530
+                ? { top: document.documentElement.offsetHeight - 1530 }
                 : {}
             }
             className={
               scrollPosition < 300
                 ? style.courseStatic
-                : scrollPosition > document.documentElement.offsetHeight - 1490
+                : scrollPosition > document.documentElement.offsetHeight - 1530
                 ? style.courseSticky
                 : style.courseFixed
             }

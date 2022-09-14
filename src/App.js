@@ -23,7 +23,6 @@ function App() {
         setData({ jsonFile: json, IsLoading: false, ErrorMsg: "" });
       })
       .catch((error) => {
-        console.log("error");
         setData({ ...Data, IsLoading: false, ErrorMsg: "Error" });
       });
   }, []);

@@ -22,10 +22,12 @@ function CourseLearn({ Overview, useref }) {
   });
 
   return (
-    <div className={style.Learn} ref={useref}>
-      <h2 className={style.ContentHeader}>What you'll learn</h2>
-      <ul className={style.container}>{Learn}</ul>
-    </div>
+    <>
+      <div id="Learn" className={style.Learn} ref={useref}>
+        <h2 className={style.ContentHeader}>What you'll learn</h2>
+        <ul className={style.container}>{Learn}</ul>
+      </div>
+    </>
   );
 }
 

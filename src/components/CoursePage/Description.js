@@ -9,7 +9,7 @@ import ReactMarkdown from "react-markdown";
  * @returns
  */
 function Description({ courseInfo, useref, isInstructor }) {
-  const [show, setShow] = useState(1);
+  const [show, setShow] = useState(true);
 
   return (
     <div>
