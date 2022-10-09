@@ -1,0 +1,31 @@
+.fullContent{
+    display: flex;
+    justify-content: center;
+    /* border: 8px solid red; */
+}
+.test{
+    display: flex;
+    justify-content: center;
+    border: 8px solid red;
+}
+.Content{
+
+    width: 1180px;
+    padding: 10px 20px;
+}
+.bdan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+@media only screen and (max-width : 1150px) {
+    .Content{
+        display : flex;
+        align-items: center;
+        flex-direction: column;
+        /* border: 8px solid green; */
+    }
+
+}

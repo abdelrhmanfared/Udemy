@@ -1,0 +1,17 @@
+.stars{
+  color: #e59819;
+  padding-right: 6px ;
+}
+.course_image{
+  width: 100%;
+}
+
+
+.instructors{
+  margin-top: 3px;
+  margin-bottom: 4px;
+  color: gray;
+}
+.course_price{
+  margin-top: 3px;
+}

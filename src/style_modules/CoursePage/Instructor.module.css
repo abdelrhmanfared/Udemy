@@ -1,0 +1,33 @@
+
+.img{
+margin-top: 5px;
+ border-radius: 120px;
+ height: 110px;
+ width: 110px;
+}
+.data_img{
+    margin-bottom: 2px;
+    margin-right: 16px ;
+}
+.Rating_image{
+    margin-top: 4px;
+}
+.Instructor{
+    display: flex;
+    flex-direction: row;
+}
+.data{
+    margin-left: 16px;
+}
+.Instructor_name{
+    color: #5624d0;
+    font-size: bold;
+    font-weight: 700;
+    border-bottom: 1px solid  #5624d0;
+}
+.job{
+    color:#6a6f73
+}
+.Instructor_parent{
+    margin-bottom: 30px;
+}

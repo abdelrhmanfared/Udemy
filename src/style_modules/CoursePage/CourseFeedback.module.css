@@ -1,0 +1,101 @@
+.CourseFeedback{
+    width: 100%;
+    max-width: 750px;
+    
+}
+.Student_feedback{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.Feedback{
+    display: flex;
+}
+.rate{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#b4690e;
+    margin-right: 8px;
+}
+.studFeedback{
+
+    margin-top: 35px;
+}
+.studentFeedback{
+    display: flex;;
+    flex-direction: row;
+}
+.prograsbar{
+    flex-grow: 30;
+
+}
+.item_with_rate{
+    display: flex;
+}
+.courserate{
+    flex-grow: 1;
+
+}
+.item_rate{
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rate_Number{
+    font-weight: 800;
+    font-size: 4.0rem;
+    height:80px;
+}
+
+.Feedback_rating{
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.Feedback_star{
+    color: #e59819;
+    font-size: 1rem;
+}
+.Feedback_user_rating{
+    color: #5624d0;
+    text-decoration: underline;
+}
+.Feedback_block_rating{
+    margin-top: 4.8px;
+    margin-left: 8px;
+}
+.prograsbar_item{
+    margin-top: 18px !important;
+    height: 10px !important;
+    border-radius: 0px !important;
+    background-color: #d1d7dc !important;
+
+}
+.Feedback_data{
+    display: inline;
+}
+.lol{
+    display: inline;
+}
+.data_hidden{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+.rate{
+    display: none;
+}
+.data_hidden{
+    color: #b4690e;
+    display: block;
+
+}
+.Feedback_rating{
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+}

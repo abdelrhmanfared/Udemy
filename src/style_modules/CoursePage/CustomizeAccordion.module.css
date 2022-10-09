@@ -1,0 +1,54 @@
+.Accordion{
+    margin-top: 10px;
+}
+.accordion{
+    height: 52px;
+    padding-top: 10px;
+    background-color: #f7f9fa;
+}
+
+.Time{
+    float: right;
+    margin-right: 12px;  
+}
+.Route_img{
+transform: rotate(180deg);
+margin: 0px 18px;
+margin-bottom: 5px;
+}
+.collapse{
+    border: 1px solid #d1d7dc;
+}  
+
+.Return_img{
+    transform: rotate(0);
+    margin: 0px 18px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: bold;
+    
+}
+.lectures{
+    font-weight: bolder;
+    font-size: large;
+}
+.accordion_item{
+    height: 100%;
+    box-sizing:border-box;
+    border: 1px solid #d1d7dc;
+}
+
+.show{
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+    height:  40px;
+    background-color: #f7f9fa;
+    text-align: center;
+    margin-top: 14px;
+}
+@media screen and (max-width: 600px) {
+    .Time{
+        display: none;
+    }
+}

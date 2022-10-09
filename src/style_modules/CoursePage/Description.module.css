@@ -1,0 +1,31 @@
+.req{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+em{
+    font-weight: bold;
+}
+.desc{
+    max-width: 750px;
+}
+.fun{
+    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
+
+}
+.line{
+    margin-top: 5px;
+}
+.btn_more{
+    border: none;
+    color: #5624d0;
+    background-color: white;
+    padding: 0px;
+}
+.img_return{
+    transform: rotate(0);
+}
+
+
+.img_reverse{
+    transform: rotate(180deg);
+}
