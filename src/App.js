@@ -32,13 +32,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route
-          path="/"
+          path="/Udemy"
           element={
             <CoursesSection data={Data} Course={course} setCourse={setcourse} />
           }
         />
 
-        <Route path="/Course/:Courseid" element={<CourseData />} />
+        <Route path="/Udemy/Course/:Courseid" element={<CourseData />} />
         <Route path="*" element={<PageNoFound />} />
       </Routes>
       <Footer />
