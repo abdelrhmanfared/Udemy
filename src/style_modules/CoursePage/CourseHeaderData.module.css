@@ -1,0 +1,96 @@
+.header{
+    display: none;
+    
+}
+.buynow{
+    display: none;
+}
+.head{
+    z-index: 8;
+    height: 80px;
+
+    width: 100%;
+    color: white;
+    right: 0;
+    top: 0;
+    background-color: #1c1d1f;
+    position: fixed;
+}
+
+.smallhead{
+    z-index: 8;
+    height: 80px;
+    border: 1px solid #1c1d1f;
+    width: 100%;
+    color: white;
+    right: 0;
+    bottom: 0;
+    background-color: #1c1d1f;
+    position: fixed;
+}
+
+.Coursetitle{
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: medium;
+    font-weight: bold;
+}
+.buy_now{
+    display: none;
+}
+.ratingCount{
+    margin: 0px 10px;
+    color: #cec0fc;
+}
+.rate{
+    padding-left: 20px;
+}
+.buynow{
+    display: none;
+}
+.price{
+    margin-top: 26px;
+}
+.buy{
+
+    width: 90px;
+    height: 48px;
+    margin: 16px 12px;
+    margin-right: 64px;
+    padding : 4px 12px;
+    background-color: #fff;
+}
+@media only screen and (max-width : 1150px) {
+    /* .courseheader{
+    display: none;
+} */
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+}
+.buynow{
+    display: flex;
+}
+}
+
+ @media only screen and (max-width : 600px) {
+.info{
+    display: none;
+}
+.buy{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+ .price{
+    padding-left: 20px;
+    color: black;
+}
+.buynow{
+    width: 100%;
+    background-color: white;
+}
+
+} 

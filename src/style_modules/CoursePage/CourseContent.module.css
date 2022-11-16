@@ -1,0 +1,25 @@
+.Content{
+    color: black;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 750px;
+  }
+.content_data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  .Expand{
+    width: 155px;
+    text-decoration: none;
+    border: none;
+    font-weight:bold ;
+    background-color: white;
+    color: #5624d0;
+}
+@media screen and (max-width: 600px) {
+.content_data{
+flex-direction: column;
+
+}
+}
