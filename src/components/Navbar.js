@@ -53,7 +53,7 @@ function Navbar() {
       <Link id={style.pc} className={style.links} to="/Udemy">
         Tech on Udemy
       </Link>
-      <Link id={style.pc} className={style.cart_image} to="/Udemy">
+      <Link id={style.pc} className={style.cart_image} to="/">
         <img alt="UdemyImgae" src={require("../images/cart.png")} />
       </Link>
       <button id={style.pc} className={style.login_btn}>

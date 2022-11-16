@@ -112,7 +112,7 @@ function Course(props) {
           }}
           onMouseLeave={() => setEnter(false)}
           onClick={() =>
-            navigate("/Course/" + props.course.id, {
+            navigate("/Udemy/Course/" + props.course.id, {
               state: {
                 data: props.course,
               },
