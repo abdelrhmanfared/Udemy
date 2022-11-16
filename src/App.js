@@ -32,7 +32,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route
-          path="/Udemy"
+          path="/"
           element={
             <CoursesSection data={Data} Course={course} setCourse={setcourse} />
           }
