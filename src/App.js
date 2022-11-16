@@ -15,8 +15,7 @@ function App() {
     ErrorMsg: "",
   });
   useEffect(() => {
-    let url = "http://localhost:8000/data";
-
+    let url = "https://api.npoint.io/7ed4ab01b70b30287cb1/data";
     fetch(url)
       .then((response) => response.json())
       .then((json) => {
