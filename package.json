@@ -1,7 +1,7 @@
 {
   "homepage": "https://abdelrhmanfared.github.io/Udemy",
-  "name": "bld-ai_project-2",
   "version": "0.1.0",
+  "name": "bld-ai_project-2",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
