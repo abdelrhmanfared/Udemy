@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <div className={style.udemy_nav_par}>
-      <Link to="/">
+      <Link to="/Udemy">
         <img
           id={style.mobile}
           className={style.udemy_image2}
@@ -22,10 +22,10 @@ function Navbar() {
           src={require("../images/Menu.png")}
         />
       </Link>
-      <Link id={style.pc} className={style.udemy_image} to="/">
+      <Link id={style.pc} className={style.udemy_image} to="/Udemy">
         <img alt="Udemy" src={require("../images/logo.png")} />
       </Link>
-      <Link id={style.pc} className={style.links} to="/">
+      <Link id={style.pc} className={style.links} to="/Udemy">
         Categories
       </Link>
       <section id={style.pc} className={style.Search_bar}>
@@ -47,10 +47,10 @@ function Navbar() {
           </div>
         </div>
       </section>
-      <Link id={style.pc} className={style.links} to="/">
+      <Link id={style.pc} className={style.links} to="/Udemy">
         Udemy Business
       </Link>
-      <Link id={style.pc} className={style.links} to="/">
+      <Link id={style.pc} className={style.links} to="/Udemy">
         Tech on Udemy
       </Link>
       <Link id={style.pc} className={style.cart_image} to="/">
@@ -63,10 +63,10 @@ function Navbar() {
       <button id={style.pc} className={style.signup_btn}>
         Sign up
       </button>
-      <Link id={style.pc} className={style.world_btn} to="/">
+      <Link id={style.pc} className={style.world_btn} to="/Udemy">
         <img alt="UdemyImgae" src={require("../images/world.png")} />
       </Link>
-      <Link id={style.mobile} className={style.logo_image} to="/">
+      <Link id={style.mobile} className={style.logo_image} to="/Udemy">
         <img alt="UdemyImage" src={require("../images/logo.png")} />
       </Link>
     </div>
